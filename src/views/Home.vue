@@ -1,6 +1,5 @@
 <template>
-<div class="home">
-	<div class="home__background">
+	<div class="home">
 		<div class="home__left">
 			<div class="home__header">
 				<span class="header__inscription-letter">H</span>
@@ -20,7 +19,6 @@
 			<main-menu/>
 		</div>
 	</div>
-</div>
 </template>
 
 <script setup>
@@ -31,23 +29,16 @@ import MainMenu from '../components/menu/MainMenu.vue';
 <style lang="scss" scoped>
 
 .home {
-	height: 100vh;
-
 	display: flex;
-	justify-content: center;
-	align-items: center;
 
-	&__background {
-	width: 70%;
-	height: 80%;
+	width: 100%;
+	height: 100%;
+
 	background-image: url(@/assets/images/home_image.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	border: 4px solid #B7A553;
 
-	display: flex;
-	}
 
 	&__left {
 		flex: 1 1 0;
@@ -149,13 +140,9 @@ import MainMenu from '../components/menu/MainMenu.vue';
 @media (max-width: 840px) {
 	.home {
 
+		width: 100%;
 		height: 100%;
-
-		&__background {
-			width: 100%;
-			height: 100%;
-			flex-direction: column;
-		}
+		flex-direction: column;
 
 		&__right {
 			justify-content: center;
