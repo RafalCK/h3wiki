@@ -9,20 +9,15 @@
 			<div class="home__subheader">
 				<span class="subheader__inscription">wiki</span>
 			</div>
-			<div class="home__search">
-				<button class="search__button" @click="openSearch()">
-				<span class="search__text">Szukaj</span>
-				</button>
-			</div>
 		</div>
 		<div class="home__right">
-			<main-menu/>
+			<menu-home/>
 		</div>
 	</div>
 </template>
 
 <script setup>
-import MainMenu from '../components/menu/MainMenu.vue';
+import MenuHome from '../components/menu/MenuHome.vue';
 </script>
 
 
@@ -68,18 +63,6 @@ import MainMenu from '../components/menu/MainMenu.vue';
 		margin-top: rem(-85);
 	}
 
-	&__search {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-
-		margin-top: rem(35);
-
-		&:hover {
-    		filter: drop-shadow(0px 0px 25px rgba(244, 247, 249, 1));
-		}
-	}
-
 	.header {
 		&__inscription {
 			font-size: rem(76);
@@ -101,40 +84,6 @@ import MainMenu from '../components/menu/MainMenu.vue';
 			font-size: rem(24);
 		}
 	}
-
-	.search {
-
-	&__button {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-
-		height: 100%;
-
-		background: transparent;
-		border: 0;
-		background-image: url('src/assets/images/menu/vision.png');
-		height: rem(100);
-		background-size: rem(110);
-		background-position: top left;
-		background-repeat: no-repeat;
-	}
-
-	&__text {
-		background-image: repeating-linear-gradient(#eee 0px, #ebc622 15px, #eee 30px);
-		font-size: rem(30);
-		font-weight: 700;
-		letter-spacing: 0.5px;
-		text-transform: uppercase;
-		background-clip: text;
-		-webkit-background-clip: text;
-		color: transparent;
-		-webkit-text-fill-color: transparent;
-		filter: drop-shadow(0 1px 3px black) drop-shadow(0 1px 2px black) drop-shadow(0 1px 1px black);
-		cursor: pointer;
-	}
-	}
-
 }
 
 @media (max-width: 840px) {

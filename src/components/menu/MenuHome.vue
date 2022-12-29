@@ -18,7 +18,7 @@
 const menu = [
 	{
 		name : "Jednostki",
-		url: "/units",
+		url: "/towns",
 		img: "units.png"
 	},
 	{

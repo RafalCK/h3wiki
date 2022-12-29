@@ -15,7 +15,6 @@ const defaultLayout = Default
 const route = useRoute();
 
  const layout = computed(() => {
-	console.log(route.meta.layout);
 	return (route.meta.layout || defaultLayout)
  });
 </script>

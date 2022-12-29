@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from "../views/Home.vue";
+import Towns from "../views/Towns.vue";
 import Units from "../views/Units.vue";
 import frame from "../layouts/Frame.vue";
 
@@ -15,12 +16,17 @@ const router = createRouter({
 		}
 	},
 	{
-		path: "/units",
-		name: "Units",
-		component: Units,
+		path: "/towns",
+		name: "Towns",
+		component: Towns,
 		meta: {
 			layout: frame
 		}
+	},
+	{
+		path: "/units/:name",
+		name: "Units",
+		component: Units,
 	}
   ]
 })

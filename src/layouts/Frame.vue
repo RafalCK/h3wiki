@@ -10,6 +10,7 @@
 
 </script>
 
+
 <style lang="scss" scoped>
 .frame-layout {
 	display: flex;
@@ -24,7 +25,7 @@
 	width: 70%;
 	height: 80%;
 
-	border: 4px solid #B7A553;
+	border: 4px solid $color-gold;
 	}
 }
 

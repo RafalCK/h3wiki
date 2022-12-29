@@ -3,7 +3,7 @@
 body:before, body:after {
 	content: "";
     position: fixed;
-    background: #B7A553;
+    background: $color-gold;
     left: 0;
     right: 0;
     height: 4px;
@@ -21,10 +21,9 @@ body {
 	font-size: 16px;
 
 	background-image: url(@/assets/images/background.jpg);
-	height: 100vh;
 
-	border-left: 4px solid #B7A553;
-    border-right: 4px solid #B7A553;  
+	border-left: 4px solid $color-gold;
+    border-right: 4px solid $color-gold;
 }
 
 

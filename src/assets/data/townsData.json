@@ -1,0 +1,52 @@
+[
+	{
+	  "id": 0,
+	  "name": "castle",
+	  "src": "castle.webp"
+	},
+	{
+	  "id": 1,
+	  "name": "rampart",
+	  "src": "rampart.webp"
+	},
+	{
+	  "id": 2,
+	  "name": "Tower",
+	  "src": "tower.webp"
+	},
+	{
+	  "id": 3,
+	  "name": "Inferno",
+	  "src": "inferno.webp"
+	},
+	{
+	  "id": 4,
+	  "name": "Necropolis",
+	  "src": "necropolis.webp"
+	},
+	{
+	  "id": 5,
+	  "name": "Dungeon",
+	  "src": "dungeon.webp"
+	},
+	{
+	  "id": 6,
+	  "name": "Stronghold",
+	  "src": "stronghold.webp"
+	},
+	{
+	  "id": 7,
+	  "name": "Fortress",
+	  "src": "fortress.webp"
+	},
+	{
+	  "id": 8,
+	  "name": "Cove",
+	  "src": "cove.webp"
+	},
+	{
+	  "id": 8,
+	  "name": "Conflux",
+	  "src": "conflux.webp"
+	}
+  ]
