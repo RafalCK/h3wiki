@@ -1,20 +1,20 @@
 @import "@/assets/scss/lib/vars.scss";
 
-body:before, body:after {
+body:before,
+body:after {
 	content: "";
-    position: fixed;
-    background: $color-gold;
-    left: 0;
-    right: 0;
-    height: 4px;
+	position: fixed;
+	background: $color-gold;
+	left: 0;
+	right: 0;
+	height: 4px;
 }
 body:before {
-    top: 1px;
+	top: 0;
 }
 body:after {
-    bottom: 0;
+	bottom: 0;
 }
-
 
 body {
 	font-family: Cambria, sans-serif;
@@ -23,9 +23,8 @@ body {
 	background-image: url(@/assets/images/background.jpg);
 
 	border-left: 4px solid $color-gold;
-    border-right: 4px solid $color-gold;
+	border-right: 4px solid $color-gold;
 }
-
 
 body::-webkit-scrollbar {
 	width: toRem(10);

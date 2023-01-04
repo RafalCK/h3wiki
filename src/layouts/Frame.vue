@@ -1,37 +1,46 @@
 <template>
 	<div class="frame-layout">
 		<div class="frame-layout__wrapper">
-			<slot/>
+			<slot />
 		</div>
-</div>
+	</div>
 </template>
 
-<script setup>
-
-</script>
-
+<script setup></script>
 
 <style lang="scss" scoped>
 .frame-layout {
 	display: flex;
-    justify-content: center;
-    align-items: center;
+	justify-content: center;
+	align-items: center;
 
 	height: 100vh;
 
 	&__wrapper {
-	display: flex;
+		display: flex;
 
-	width: 70%;
-	height: 80%;
+		width: 70%;
+		height: 80%;
 
-	border: 4px solid $color-gold;
+		border: 4px solid $color-gold;
 	}
 }
 
 @media (max-width: 840px) {
 	.frame-layout {
-			height: 100%;
+		height: 100%;
+
+		&__wrapper {
+			margin: rem(20) 0;
 		}
+	}
+}
+
+@media (max-height: 800px) {
+	.frame-layout {
+		&__wrapper {
+			height: 90%;
+		}
+	}
 }
 </style>

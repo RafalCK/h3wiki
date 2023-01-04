@@ -1,30 +1,35 @@
 <template>
-<div class="menu">
-	<ul class="menu__list">
-		<template v-for="(item, index) in menu" :key="index">
-			<li class="menu__item" :style="{ backgroundImage: `url(${('src/assets/images/menu/' + item.img)})` }">
-				<a class="menu__link" :href="item.url" @click="item.action">
-					<span class="menu__text">{{item.name}}</span>
-				</a>
-			</li>
-		</template>
-	</ul>
-</div>
+	<div class="menu">
+		<ul class="menu__list">
+			<template
+				v-for="(item, index) in menu"
+				:key="index">
+				<li
+					class="menu__item"
+					:style="{ backgroundImage: `url(${'src/assets/images/menu/' + item.img})` }">
+					<a
+						class="menu__link"
+						:href="item.url"
+						@click="item.action">
+						<span class="menu__text">{{ item.name }}</span>
+					</a>
+				</li>
+			</template>
+		</ul>
+	</div>
 </template>
 
-
 <script setup>
-
 const menu = [
 	{
-		name : "Jednostki",
+		name: "Jednostki",
 		url: "/towns",
-		img: "units.png"
+		img: "units.png",
 	},
 	{
-		name : "Lokacje",
+		name: "Lokacje",
 		url: "/location",
-		img: "location.png"
+		img: "location.png",
 	},
 	// {
 	// 	name : "Szukaj",
@@ -32,27 +37,23 @@ const menu = [
 	// 	action: openSearch
 	// },
 	{
-		name : "Artefakty",
+		name: "Artefakty",
 		url: "/artefact",
-		img: "artefact.png"
+		img: "artefact.png",
 	},
 	{
-		name : "Magia",
+		name: "Magia",
 		url: "/magic",
-		img: "magic.png"
+		img: "magic.png",
 	},
-	]
+];
 
-	
 function openSearch() {
 	console.log("Szukajka");
 }
-
 </script>
 
-
 <style lang="scss" scoped>
-
 .menu {
 	height: 100%;
 
@@ -60,10 +61,10 @@ function openSearch() {
 		list-style: none;
 		margin: 0;
 		padding: 0;
-    	height: 100%;
-    	display: flex;
-    	flex-direction: column;
-    	justify-content: space-around;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
 	}
 
 	&__item {
@@ -77,7 +78,7 @@ function openSearch() {
 		background-repeat: no-repeat;
 
 		&:hover {
-    		filter: drop-shadow(0px 0px 25px rgba(244, 247, 249, 1));
+			filter: drop-shadow(0px 0px 25px rgba(244, 247, 249, 1));
 		}
 	}
 
@@ -112,7 +113,7 @@ function openSearch() {
 		&__item {
 			margin: rem(15) 0;
 		}
-		
+
 		&__list {
 			padding: 0;
 		}

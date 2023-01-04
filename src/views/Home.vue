@@ -11,18 +11,16 @@
 			</div>
 		</div>
 		<div class="home__right">
-			<menu-home/>
+			<menu-home />
 		</div>
 	</div>
 </template>
 
 <script setup>
-import MenuHome from '../components/menu/MenuHome.vue';
+import MenuHome from "../components/menu/MenuHome.vue";
 </script>
 
-
 <style lang="scss" scoped>
-
 .home {
 	display: flex;
 
@@ -33,7 +31,6 @@ import MenuHome from '../components/menu/MenuHome.vue';
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-
 
 	&__left {
 		flex: 1 1 0;
@@ -88,7 +85,6 @@ import MenuHome from '../components/menu/MenuHome.vue';
 
 @media (max-width: 840px) {
 	.home {
-
 		width: 100%;
 		height: 100%;
 		flex-direction: column;
@@ -117,8 +113,7 @@ import MenuHome from '../components/menu/MenuHome.vue';
 			&__inscription {
 				font-size: rem(20);
 			}
-	}
+		}
 	}
 }
-
 </style>
