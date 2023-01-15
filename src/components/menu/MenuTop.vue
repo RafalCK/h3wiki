@@ -1,14 +1,31 @@
 <template>
 	<div class="menu">
 		<ul class="menu__list">
-			<template v-for="(item, index) in menu">
+			<li class="menu__item">
+				<router-link
+					:to="{ name: 'Home' }"
+					class="menu__link">
+					<svg
+						width="34"
+						height="34"
+						viewBox="0 0 24 24"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z"
+							fill="#B7A553" />
+					</svg>
+				</router-link>
+			</li>
+			<template
+				v-for="item in menu"
+				:key="item.id">
 				<li class="menu__item">
-					<a
-						class="menu__link"
-						:href="item.url"
-						@click="item.action">
+					<router-link
+						:to="{ path: item.url }"
+						class="menu__link">
 						<span class="menu__text">{{ item.name }}</span>
-					</a>
+					</router-link>
 				</li>
 			</template>
 		</ul>
@@ -22,27 +39,33 @@ const goBack = () => router.back();
 
 const menu = [
 	{
-		name: "Jednostki",
+		id: 0,
+		name: "Towns",
 		url: "/towns",
 		img: "units.png",
 	},
 	{
-		name: "Lokacje",
-		url: "/location",
+		id: 1,
+		name: "Locations",
+		url: "/locations",
 		img: "location.png",
 	},
 	{
-		name: "Artefakty",
-		url: "/artefact",
+		id: 2,
+		name: "Artefacts",
+		url: "/artefacts",
 		img: "artefact.png",
 	},
 	{
-		name: "Magia",
-		url: "/magic",
+		id: 3,
+		name: "Magics",
+		url: "/magics",
 		img: "magic.png",
 	},
 	{
-		name: "Powrót",
+		id: 4,
+		name: "Back",
+		url: "/",
 		action: goBack,
 	},
 ];
@@ -80,7 +103,12 @@ const menu = [
 	}
 
 	&__link {
+		display: flex;
 		text-decoration: none;
+
+		&.active {
+			filter: drop-shadow(0px 0px 25px rgba(244, 247, 249, 1));
+		}
 	}
 
 	&__text {

@@ -10,8 +10,4 @@
 import MenuTop from "../../components/menu/MenuTop.vue";
 </script>
 
-<style scoped lang="scss">
-.header {
-	margin-bottom: rem(30);
-}
-</style>
+<style scoped lang="scss"></style>

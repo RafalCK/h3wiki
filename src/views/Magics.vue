@@ -1,18 +1,18 @@
 <template>
-	<div class="towns">
-		<div class="towns__list">
+	<div class="magics">
+		<div class="magics__list">
 			<li
-				class="towns__item"
-				v-for="town in towns"
-				:key="town.id">
+				class="magics__item"
+				v-for="magic in magics"
+				:key="magic.id">
 				<router-link
-					class="towns__link"
-					:to="{ path: `/units/${town.name}` }">
+					class="magics__link"
+					:to="`/spells/${magic.name}`">
 					<img
-						class="towns__img"
-						:src="`/assets/images/towns/${town.src}`"
-						:alt="town.name" />
-					<span class="towns__name">{{ town.name }}</span>
+						class="magics__img"
+						:src="`/assets/images/magics/${magic.src}`"
+						:alt="magic.name" />
+					<span class="magics__name">{{ magic.name }}</span>
 				</router-link>
 			</li>
 		</div>
@@ -20,13 +20,13 @@
 </template>
 
 <script setup>
-import townsData from "../assets/data/townsData.json";
+import magicsData from "../assets/data/magicsData.json";
 
-const towns = townsData;
+const magics = magicsData;
 </script>
 
 <style lang="scss" scoped>
-.towns {
+.magics {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -39,7 +39,7 @@ const towns = townsData;
 		height: 100%;
 
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 10px;
 		list-style: none;
 	}
@@ -47,12 +47,12 @@ const towns = townsData;
 	&__item {
 		display: flex;
 		flex-direction: column;
-		max-width: rem(260);
-
 		align-self: center;
 		justify-self: center;
 
 		border: 1px solid $color-gold;
+
+		width: 50%;
 	}
 
 	&__link {
@@ -82,19 +82,11 @@ const towns = townsData;
 }
 
 @media (max-width: 840px) {
-	.towns {
+	.magics {
 		&__list {
 			margin: rem(20) 0;
 			grid-template-columns: repeat(1, 1fr);
-		}
-	}
-}
-
-@media (max-height: 800px) {
-	.towns {
-		&__list {
-			margin: rem(10) rem(20);
-			grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
+			gap: rem(50);
 		}
 	}
 }

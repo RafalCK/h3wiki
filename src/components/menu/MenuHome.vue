@@ -2,17 +2,16 @@
 	<div class="menu">
 		<ul class="menu__list">
 			<template
-				v-for="(item, index) in menu"
-				:key="index">
+				v-for="item in menu"
+				:key="item.id">
 				<li
 					class="menu__item"
 					:style="{ backgroundImage: `url(${'src/assets/images/menu/' + item.img})` }">
-					<a
-						class="menu__link"
-						:href="item.url"
-						@click="item.action">
+					<router-link
+						:to="{ path: item.url }"
+						class="menu__link">
 						<span class="menu__text">{{ item.name }}</span>
-					</a>
+					</router-link>
 				</li>
 			</template>
 		</ul>
@@ -22,35 +21,30 @@
 <script setup>
 const menu = [
 	{
-		name: "Jednostki",
+		id: 0,
+		name: "Units",
 		url: "/towns",
 		img: "units.png",
 	},
 	{
-		name: "Lokacje",
-		url: "/location",
+		id: 1,
+		name: "Locations",
+		url: "/locations",
 		img: "location.png",
 	},
-	// {
-	// 	name : "Szukaj",
-	// 	img: "src/dbsa",
-	// 	action: openSearch
-	// },
 	{
-		name: "Artefakty",
-		url: "/artefact",
+		id: 2,
+		name: "Artefacts",
+		url: "/artefacts",
 		img: "artefact.png",
 	},
 	{
-		name: "Magia",
-		url: "/magic",
+		id: 3,
+		name: "Magics",
+		url: "/magics",
 		img: "magic.png",
 	},
 ];
-
-function openSearch() {
-	console.log("Szukajka");
-}
 </script>
 
 <style lang="scss" scoped>
