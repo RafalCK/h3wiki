@@ -53,6 +53,7 @@ const showMenu = computed(() => {
 
 		&__wrapper {
 			margin: rem(20) 0;
+			width: 95%;
 		}
 	}
 }
