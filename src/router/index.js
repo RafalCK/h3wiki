@@ -5,7 +5,8 @@ import Units from "../views/Units.vue";
 import Magics from "../views/Magics.vue";
 import Spells from "../views/Spells.vue";
 import Locations from "../views/Locations.vue";
-import Artefacts from "../views/Artefacts.vue";
+import Artifacts from "../views/Artifacts.vue";
+import Equipment from "../views/Equipment.vue";
 
 import frame from "../layouts/Frame.vue";
 
@@ -53,12 +54,17 @@ const router = createRouter({
 			component: Locations,
 		},
 		{
-			path: "/artefacts",
-			name: "Artefacts",
-			component: Artefacts,
+			path: "/artifacts",
+			name: "Equipment",
+			component: Equipment,
 			meta: {
 				layout: frame,
 			},
+		},
+		{
+			path: "/artifacts/:type",
+			name: "Artifacts",
+			component: Artifacts,
 		},
 	],
 });

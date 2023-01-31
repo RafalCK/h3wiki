@@ -1,0 +1,58 @@
+[
+	{
+		"id": "9",
+		"name": "Shield of the Dwarven Lords",
+		"rarity": "Treasure",
+		"imageUrl": "assets/images/artifacts/off-hand/sotdl.gif",
+		"description": "This left handed item increases your Defense skill by +2."
+	},
+	{
+		"id": "10",
+		"name": "Shield of the Yawning Dead",
+		"rarity": "Minor",
+		"imageUrl": "assets/images/artifacts/off-hand/sotyd.gif",
+		"description": "This left handed item increases your Defense skill by +3."
+	},
+	{
+		"id": "11",
+		"name": "Buckler of the Gnoll King",
+		"rarity": "Minor",
+		"imageUrl": "assets/images/artifacts/off-hand/botgk.gif",
+		"description": "This left handed item increases your Defense skill by +4."
+	},
+	{
+		"id": "12",
+		"name": "Targ of the Rampaging Ogre",
+		"rarity": "Major",
+		"imageUrl": "assets/images/artifacts/off-hand/totro.gif",
+		"description": "This left handed item increases your Defense skill by +5."
+	},
+	{
+		"id": "13",
+		"name": "Dragon Scale Shield",
+		"rarity": "Major",
+		"imageUrl": "assets/images/artifacts/off-hand/dss.gif",
+		"description": "Held with the left hand, this item increases your Attack and Defense skills by +3."
+	},
+	{
+		"id": "14",
+		"name": "Shield of the Damned",
+		"rarity": "Major",
+		"imageUrl": "assets/images/artifacts/off-hand/sod.gif",
+		"description": "This left handed item increases your Defense skill by +6."
+	},
+	{
+		"id": "15",
+		"name": "Sentinel's Shield",
+		"rarity": "Relic",
+		"imageUrl": "assets/images/artifacts/off-hand/ss.gif",
+		"description": "Held with the left hand, this relic increases your Defense skill by +12, but reduces your Attack skill by -3."
+	},
+	{
+		"id": "16",
+		"name": "Lion's Shield of Courage",
+		"rarity": "Relic",
+		"imageUrl": "assets/images/artifacts/off-hand/lsoc.gif",
+		"description": "Held with the left hand, the Lion's Shield of Courage increases all four primary skills by +4."
+	}
+]

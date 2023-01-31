@@ -52,8 +52,8 @@ const menu = [
 	},
 	{
 		id: 2,
-		name: "Artefacts",
-		url: "/artefacts",
+		name: "Artifacts",
+		url: "/artifacts",
 		img: "artefact.png",
 	},
 	{
