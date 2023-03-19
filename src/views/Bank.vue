@@ -58,9 +58,41 @@
 						</td>
 						<td>
 							<span class="bank__table__awards">
-								{{ bank.content }}
-								<img :src="`/assets/images/gold.gif`" />
-								{{ bank.artifact ? `${bank.artifact}` : "" }}
+								<template v-if="bank.content">
+									{{ bank.content }}
+									<img :src="`/assets/images/gold.gif`" />
+								</template>
+								<template v-if="bank.creature">
+									{{ bank.creature.count }} {{ bank.creature.name }}
+									<img
+										class="bank__table__awards__creature"
+										:src="`/assets/images/portrait/${bank.creature.img}`" />
+								</template>
+								<template v-if="bank.artifact"> Artifact ({{ bank.artifact }}) </template>
+								<template v-if="bank.wood">
+									{{ bank.wood }}
+									<img :src="`/assets/images/wood.png`" />
+								</template>
+								<template v-if="bank.mercury">
+									{{ bank.mercury }}
+									<img :src="`/assets/images/mercury.png`" />
+								</template>
+								<template v-if="bank.ore">
+									{{ bank.ore }}
+									<img :src="`/assets/images/ore.png`" />
+								</template>
+								<template v-if="bank.sulfur">
+									{{ bank.sulfur }}
+									<img :src="`/assets/images/sulfur.png`" />
+								</template>
+								<template v-if="bank.crystal">
+									{{ bank.crystal }}
+									<img :src="`/assets/images/crystal.png`" />
+								</template>
+								<template v-if="bank.gem">
+									{{ bank.gem }}
+									<img :src="`/assets/images/gem.png`" />
+								</template>
 							</span>
 						</td>
 						<td>
@@ -158,10 +190,38 @@ onMounted(() => {
 
 		&__awards {
 			display: inline-flex;
+			align-items: center;
+			justify-content: center;
 			flex-wrap: wrap;
 			gap: rem(4);
+
+			img {
+				width: rem(14);
+				height: rem(14);
+				margin-right: rem(2);
+			}
+
+			img.bank__table__awards__creature {
+				width: rem(27);
+				height: rem(30);
+			}
 		}
 	}
+}
+
+::-webkit-scrollbar {
+	width: rem(2);
+}
+
+::-webkit-scrollbar-track {
+	background: $color-gold;
+}
+::-webkit-scrollbar-thumb {
+	background: $color-gold;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: $color-gold;
 }
 
 @media (max-width: 500px) {

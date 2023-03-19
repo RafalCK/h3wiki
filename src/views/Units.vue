@@ -102,7 +102,7 @@ const route = useRoute();
 const units = ref(null);
 
 onMounted(() => {
-	let link = "../src/assets/data/" + route.params.name + ".json";
+	let link = "../src/assets/data/towns/" + route.params.name + ".json";
 	fetch(link)
 		.then((res) => res.json())
 		.then((data) => (units.value = data))

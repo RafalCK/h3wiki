@@ -33,10 +33,6 @@
 </template>
 
 <script setup>
-import router from "../../router";
-
-const goBack = () => router.back();
-
 const menu = [
 	{
 		id: 0,
@@ -61,12 +57,6 @@ const menu = [
 		name: "Magics",
 		url: "/magics",
 		img: "magic.png",
-	},
-	{
-		id: 4,
-		name: "Back",
-		url: "/",
-		action: goBack,
 	},
 ];
 </script>

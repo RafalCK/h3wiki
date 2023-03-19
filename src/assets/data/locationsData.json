@@ -37,7 +37,7 @@
 	},
 	{
 		"id": 6,
-		"name": "medusas-stores",
+		"name": "medusa-stores",
 		"label": "Medusa Stores",
 		"src": "medusastores.png"
 	},
@@ -61,42 +61,36 @@
 	},
 	{
 		"id": 10,
-		"name": "pyramid",
-		"label": "Pyramid",
-		"src": "pyramid.png"
-	},
-	{
-		"id": 11,
 		"name": "dragon-fly-hive",
 		"label": "Dragon Fly Hive",
 		"src": "flyhive.png"
 	},
 	{
-		"id": 12,
+		"id": 11,
 		"name": "griffin-conservatory",
 		"label": "Griffin Conservatory",
-		"src": "griffinbastion.png"
+		"src": "griffinconservatory.png"
 	},
 	{
-		"id": 13,
+		"id": 12,
 		"name": "wolf-raider-picket",
 		"label": "Wolf Raider Picket",
 		"src": "picket.png"
 	},
 	{
-		"id": 14,
+		"id": 13,
 		"name": "experimental-shop",
 		"label": "Experimental Shop",
 		"src": "experimentalshop.png"
 	},
 	{
-		"id": 15,
+		"id": 14,
 		"name": "red-tower",
 		"label": "Red Tower",
 		"src": "red_tower.png"
 	},
 	{
-		"id": 16,
+		"id": 15,
 		"name": "dragon-utopia",
 		"label": "Dragon Utopia",
 		"src": "utopia.png"

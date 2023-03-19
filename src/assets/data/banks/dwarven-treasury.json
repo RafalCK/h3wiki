@@ -1,6 +1,6 @@
 {
 	"name": "Dwarven Treasury",
-	"image": "dwarven_treasury.png",
+	"image": "dwarven.png",
 	"map": "map5.gif",
 	"info": [
 		{
@@ -13,24 +13,26 @@
 				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 10 },
 				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 10 }
 			],
-			"content": "1500",
-			"xp": 480
+			"content": "2500",
+			"crystal": "2",
+			"xp": 1000
 		},
 		{
-			"id": 0,
+			"id": 1,
 			"percent": "30%",
 			"guards": [
 				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 10 },
 				{ "hex": "B", "image": "dwarve.gif", "name": "Dwarves", "count": 10 },
-				{ "hex": "C", "image": "dwarve.gif", "name": "Dwarves", "count": 10 },
+				{ "hex": "C", "image": "battle_dwarf.gif", "name": "Battle Dwarves", "count": 10 },
 				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 10 },
-				{ "hex": "E", "image": "battle_dwarf.gif", "name": "Dwarves", "count": 10 }
+				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 10 }
 			],
-			"content": "1500",
-			"xp": 480
+			"content": "2500",
+			"crystal": "2",
+			"xp": 1000
 		},
 		{
-			"id": 0,
+			"id": 2,
 			"percent": "30%",
 			"guards": [
 				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 15 },
@@ -39,47 +41,79 @@
 				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 15 },
 				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 15 }
 			],
-			"content": "1500",
-			"xp": 480
-		},
-		{
-			"id": 1,
-			"percent": "30%",
-			"guards": [
-				{ "hex": "A", "image": "skeleton.gif", "name": "Skeleton", "count": 13 },
-				{ "hex": "B", "image": "walking_dead.gif", "name": "Walking Dead", "count": 10 },
-				{ "hex": "C", "image": "wight.gif", "name": "Wight", "count": 5 },
-				{ "hex": "D", "image": "walking_dead.gif", "name": "Walking Dead", "count": 10 },
-				{ "hex": "E", "image": "skeleton.gif", "name": "Skeleton", "count": 12 }
-			],
-			"content": "2000",
-			"xp": 540
-		},
-		{
-			"id": 2,
-			"percent": "30%",
-			"guards": [
-				{ "hex": "A", "image": "skeleton.gif", "name": "Skeleton", "count": 20 },
-				{ "hex": "B", "image": "walking_dead.gif", "name": "Walking Dead", "count": 20 },
-				{ "hex": "C", "image": "wight.gif", "name": "Wight", "count": 10 },
-				{ "hex": "D", "image": "vampire.gif", "name": "Vampire", "count": 5 }
-			],
-			"content": "2500",
-			"artifact": "Treasury",
-			"xp": 750
+			"content": "4000",
+			"crystal": "3",
+			"xp": 1000
 		},
 		{
 			"id": 3,
-			"percent": "10%",
+			"percent": "30%",
 			"guards": [
-				{ "hex": "A", "image": "skeleton.gif", "name": "Skeleton", "count": 20 },
-				{ "hex": "B", "image": "walking_dead.gif", "name": "Walking Dead", "count": 20 },
-				{ "hex": "C", "image": "wight.gif", "name": "Wight", "count": 10 },
-				{ "hex": "D", "image": "vampire.gif", "name": "Vampire", "count": 10 }
+				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 15 },
+				{ "hex": "B", "image": "dwarve.gif", "name": "Dwarves", "count": 15 },
+				{ "hex": "C", "image": "battle_dwarf.gif", "name": "Battle Dwarves", "count": 15 },
+				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 15 },
+				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 15 }
+			],
+			"content": "4000",
+			"crystal": "3",
+			"xp": 1500
+		},
+		{
+			"id": 4,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 20 },
+				{ "hex": "B", "image": "dwarve.gif", "name": "Dwarves", "count": 20 },
+				{ "hex": "C", "image": "dwarve.gif", "name": "Dwarves", "count": 20 },
+				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 20 },
+				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 20 }
 			],
 			"content": "5000",
-			"artifact": "Treasury",
-			"xp": 900
+			"crystal": "5",
+			"xp": 2000
+		},
+		{
+			"id": 5,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 20 },
+				{ "hex": "B", "image": "dwarve.gif", "name": "Dwarves", "count": 20 },
+				{ "hex": "C", "image": "battle_dwarf.gif", "name": "Battle Dwarves", "count": 20 },
+				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 20 },
+				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 20 }
+			],
+			"content": "5000",
+			"crystal": "5",
+			"xp": 2500
+		},
+		{
+			"id": 6,
+			"percent": "10%",
+			"guards": [
+				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 30 },
+				{ "hex": "B", "image": "dwarve.gif", "name": "Dwarves", "count": 30 },
+				{ "hex": "C", "image": "dwarve.gif", "name": "Dwarves", "count": 30 },
+				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 30 },
+				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 30 }
+			],
+			"content": "7500",
+			"crystal": "10",
+			"xp": 3000
+		},
+		{
+			"id": 7,
+			"percent": "10%",
+			"guards": [
+				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 30 },
+				{ "hex": "B", "image": "dwarve.gif", "name": "Dwarves", "count": 30 },
+				{ "hex": "C", "image": "battle_dwarf.gif", "name": "Battle Dwarves", "count": 30 },
+				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 30 },
+				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 30 }
+			],
+			"content": "7500",
+			"crystal": "10",
+			"xp": 3000
 		}
 	]
 }

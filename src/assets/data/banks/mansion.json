@@ -1,0 +1,79 @@
+{
+	"name": "Mansion",
+	"image": "mansion.gif",
+	"map": "map5.gif",
+	"info": [
+		{
+			"id": 0,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 8 },
+				{ "hex": "B", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 8 },
+				{ "hex": "C", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 8 },
+				{ "hex": "D", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 8 },
+				{ "hex": "E", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 8 }
+			],
+			"content": "2500",
+			"artifact": "Major",
+			"mercury": "2",
+			"sulfur": "2",
+			"crystal": "2",
+			"gem": "2",
+			"xp": 1600
+		},
+		{
+			"id": 1,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 12 },
+				{ "hex": "B", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 12 },
+				{ "hex": "C", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 12 },
+				{ "hex": "D", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 12 },
+				{ "hex": "E", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 12 }
+			],
+			"content": "5000",
+			"artifact": "Major",
+			"mercury": "3",
+			"sulfur": "3",
+			"crystal": "3",
+			"gem": "3",
+			"xp": 2400
+		},
+		{
+			"id": 2,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 16 },
+				{ "hex": "B", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 16 },
+				{ "hex": "C", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 16 },
+				{ "hex": "D", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 16 },
+				{ "hex": "E", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 16 }
+			],
+			"content": "7500",
+			"artifact": "Major",
+			"mercury": "4",
+			"sulfur": "4",
+			"crystal": "4",
+			"gem": "4",
+			"xp": 3200
+		},
+		{
+			"id": 3,
+			"percent": "10%",
+			"guards": [
+				{ "hex": "A", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 20 },
+				{ "hex": "B", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 20 },
+				{ "hex": "C", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 20 },
+				{ "hex": "D", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 20 },
+				{ "hex": "E", "image": "vampire_lord.gif", "name": "Vampire Lords", "count": 20 }
+			],
+			"content": "10000",
+			"artifact": "Major",
+			"mercury": "5",
+			"sulfur": "5",
+			"crystal": "5",
+			"gem": "5",
+			"xp": 4000
+		}
+	]
+}
