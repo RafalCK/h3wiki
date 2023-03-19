@@ -7,6 +7,7 @@ import Spells from "../views/Spells.vue";
 import Locations from "../views/Locations.vue";
 import Artifacts from "../views/Artifacts.vue";
 import Equipment from "../views/Equipment.vue";
+import Bank from "../views/Bank.vue";
 
 import frame from "../layouts/Frame.vue";
 
@@ -52,6 +53,17 @@ const router = createRouter({
 			path: "/locations",
 			name: "Locations",
 			component: Locations,
+			meta: {
+				layout: frame,
+			},
+		},
+		{
+			path: "/locations/:name",
+			name: "bank",
+			component: Bank,
+			meta: {
+				layout: frame,
+			},
 		},
 		{
 			path: "/artifacts",

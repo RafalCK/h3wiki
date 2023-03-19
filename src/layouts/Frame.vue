@@ -61,7 +61,7 @@ const showMenu = computed(() => {
 @media (max-height: 800px) {
 	.frame-layout {
 		&__wrapper {
-			height: 90%;
+			height: auto;
 		}
 	}
 }

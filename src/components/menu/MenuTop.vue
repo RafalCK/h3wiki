@@ -145,13 +145,7 @@ const menu = [
 
 @media (max-width: 480px) {
 	.menu {
-		&__list {
-			align-content: center;
-		}
-		&__item {
-			flex-basis: 50%;
-			text-align: center;
-		}
+		display: none;
 	}
 }
 </style>

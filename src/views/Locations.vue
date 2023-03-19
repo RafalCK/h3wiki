@@ -1,53 +1,34 @@
 <template>
-	<div class="spell">
-		<div class="units__list">
+	<div class="locations">
+		<div class="locations__list">
 			<li
-				class="units__item"
-				v-for="spell in spells"
-				:key="spell.id">
-				<div class="units__item__name">
-					{{ spell.name }}
-				</div>
-				<div class="units__item__box">
-					<div class="units__item__img"><img :src="`../${spell.imageUrl}`" /></div>
-					<div class="units__item__container__info">
-						<div class="units__item__info">
-							<span class="units__item__info__header">Level</span>
-							<div class="units__item__info__image">
-								<img
-									class="units__item__info__image__img"
-									src="/assets/images/spec.jpg" />
-							</div>
-							<span class="units__item__info__value">{{ spell.level }}</span>
-						</div>
-						<div class="units__item__info">
-							<span class="units__item__info__value center">{{ spell.effect }}</span>
-						</div>
+				class="locations__item"
+				v-for="location in locations"
+				:key="location.id">
+				<router-link
+					class="locations__link"
+					:to="{ path: `/locations/${location.name}` }">
+					<div class="locations__image">
+						<img
+							class="locations__image__img"
+							:src="`/assets/images/locations/${location.src}`"
+							:alt="location.name" />
 					</div>
-				</div>
+					<span class="locations__name">{{ location.label }}</span>
+				</router-link>
 			</li>
 		</div>
 	</div>
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
-import { useRoute } from "vue-router";
+import locationsData from "../assets/data/locationsData.json";
 
-const route = useRoute();
-const spells = ref(null);
-
-onMounted(() => {
-	let link = "../src/assets/data/" + route.params.name + ".json";
-	fetch(link)
-		.then((res) => res.json())
-		.then((data) => (spells.value = data))
-		.catch((err) => console.log(err.message));
-});
+const locations = locationsData;
 </script>
 
 <style lang="scss" scoped>
-.units {
+.locations {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -59,107 +40,76 @@ onMounted(() => {
 		width: 100%;
 		height: 100%;
 
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: rem(20);
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 10px;
 		list-style: none;
 	}
 
 	&__item {
-		width: 35%;
 		display: flex;
 		flex-direction: column;
+		max-width: rem(260);
 
-		align-self: baseline;
+		align-self: center;
 		justify-self: center;
 
 		border: 1px solid $color-gold;
+	}
 
-		&.three {
-			width: 72%;
-		}
+	&__link {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+	}
 
-		&__container__info {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-		}
-
-		&__info {
-			display: flex;
-			align-items: center;
-			flex-wrap: wrap;
-			width: 100%;
-			border: 1px solid $color-gold;
-
-			&__header {
-				display: flex;
-				justify-content: flex-end;
-				flex: 2;
-				margin-right: rem(5);
-			}
-
-			&__image {
-				height: auto;
-				border: 1px solid $color-gold;
-				display: flex;
-				align-self: stretch;
-				background: #30190e;
-				border: 1px solid $color-gold;
-
-				&__img {
-					width: 100%;
-					height: rem(25);
-					display: flex;
-					align-self: center;
-				}
-			}
-			&__img {
-				border: 1px solid $color-gold;
-				flex: 0 0 rem(30);
-			}
-
-			&__value {
-				display: flex;
-				flex: 2;
-				margin-left: rem(5);
-
-				&.center {
-					display: flex;
-					justify-content: center;
-					text-align: center;
-					padding: rem(5) 0;
-				}
-			}
-		}
-
-		&__name {
-			display: flex;
-			align-items: flex-start;
-			justify-content: center;
-			background: $color-gold;
-			color: $color-white;
-			border: 1px solid $color-gold;
-			padding: rem(2) 0;
-		}
-
+	&__image {
+		width: rem(150);
+		height: rem(80);
 		&__img {
-			display: flex;
-			align-items: center;
-			justify-content: center;
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
+	}
 
-			filter: drop-shadow(0px 0px 25px rgb(244, 247, 249));
+	&__name {
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		background: $color-gold;
+		color: $color-white;
+		border: 1px solid $color-gold;
+		padding: rem(2) 0;
+		text-transform: capitalize;
+	}
+}
 
-			height: rem(150);
+@media (min-width: 320px) and (max-width: 450px) {
+	.locations {
+		&__list {
+			grid-template-columns: repeat(1, 1fr);
+			padding: rem(10) 0;
 		}
 	}
 }
 
-@media (max-width: 840px) {
-	.units {
-		&__item {
-			width: 70%;
+@media (min-width: 451px) and (max-width: 600px) {
+	.locations {
+		&__list {
+			grid-template-columns: repeat(2, 1fr);
+			padding: rem(10) 0;
+		}
+	}
+}
+
+@media (min-width: 601px) and (max-width: 950px) {
+	.locations {
+		&__list {
+			grid-template-columns: repeat(3, 1fr);
+			padding: rem(10) 0;
 		}
 	}
 }
