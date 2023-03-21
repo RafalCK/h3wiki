@@ -38,25 +38,21 @@ const menu = [
 		id: 0,
 		name: "Towns",
 		url: "/towns",
-		img: "units.png",
 	},
 	{
 		id: 1,
 		name: "Locations",
 		url: "/locations",
-		img: "location.png",
 	},
 	{
 		id: 2,
 		name: "Artifacts",
 		url: "/artifacts",
-		img: "artefact.png",
 	},
 	{
 		id: 3,
 		name: "Magics",
 		url: "/magics",
-		img: "magic.png",
 	},
 ];
 </script>

@@ -81,11 +81,20 @@ const towns = townsData;
 	}
 }
 
-@media (max-width: 840px) {
+@media (max-width: 480px) {
 	.towns {
 		&__list {
 			margin: rem(20) 0;
 			grid-template-columns: repeat(1, 1fr);
+		}
+	}
+}
+
+@media (min-width: 481px) and (max-width: 840px) {
+	.towns {
+		&__list {
+			margin: rem(20) rem(10);
+			grid-template-columns: repeat(2, 1fr);
 		}
 	}
 }

@@ -13,9 +13,6 @@ import TheHeader from "./components/TheHeader.vue";
 
 <style lang="scss" scoped>
 .default-layout {
-	margin-top: rem(30);
-	padding-bottom: rem(20);
-
 	&__wrapper {
 		max-width: rem(960);
 

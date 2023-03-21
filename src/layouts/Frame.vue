@@ -47,7 +47,7 @@ const showMenu = computed(() => {
 	}
 }
 
-@media (max-width: 840px) {
+@media (max-width: 951px) {
 	.frame-layout {
 		height: 100%;
 
@@ -62,6 +62,17 @@ const showMenu = computed(() => {
 	.frame-layout {
 		&__wrapper {
 			height: auto;
+		}
+	}
+}
+
+@media (min-width: 952px) and (max-width: 1250px) {
+	.frame-layout {
+		height: 100vh;
+
+		&__wrapper {
+			margin: rem(20) 0;
+			width: 95%;
 		}
 	}
 }
