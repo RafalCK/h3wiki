@@ -10,7 +10,7 @@
 					:to="{ path: `/units/${town.name}` }">
 					<img
 						class="towns__img"
-						:src="`/assets/images/towns/${town.src}`"
+						:src="`../../assets/images/towns/${town.src}`"
 						:alt="town.name" />
 					<span class="towns__name">{{ town.name }}</span>
 				</router-link>

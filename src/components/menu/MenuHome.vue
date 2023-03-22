@@ -6,7 +6,7 @@
 				:key="item.id">
 				<li
 					class="menu__item"
-					:style="{ backgroundImage: `url(${'src/assets/images/menu/' + item.img})` }">
+					:style="{ backgroundImage: `url(${'/assets/images/menu/' + item.img})` }">
 					<router-link
 						:to="{ path: item.url }"
 						class="menu__link">
