@@ -1,0 +1,59 @@
+{
+	"name": "Crypt",
+	"image": "crypt.png",
+	"map": "map5.gif",
+	"info": [
+		{
+			"id": 0,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "skeleton.gif", "name": "Skeleton", "count": 10 },
+				{ "hex": "B", "image": "walking_dead.gif", "name": "Walking Dead", "count": 10 },
+				{ "hex": "C", "image": "walking_dead.gif", "name": "Walking Dead", "count": 10 },
+				{ "hex": "D", "image": "skeleton.gif", "name": "Skeleton", "count": 10 },
+				{ "hex": "E", "image": "skeleton.gif", "name": "Skeleton", "count": 10 }
+			],
+			"content": "1500",
+			"xp": 480
+		},
+		{
+			"id": 1,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "skeleton.gif", "name": "Skeleton", "count": 13 },
+				{ "hex": "B", "image": "walking_dead.gif", "name": "Walking Dead", "count": 10 },
+				{ "hex": "C", "image": "wight.gif", "name": "Wight", "count": 5 },
+				{ "hex": "D", "image": "walking_dead.gif", "name": "Walking Dead", "count": 10 },
+				{ "hex": "E", "image": "skeleton.gif", "name": "Skeleton", "count": 12 }
+			],
+			"content": "2000",
+			"xp": 540
+		},
+		{
+			"id": 2,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "skeleton.gif", "name": "Skeleton", "count": 20 },
+				{ "hex": "B", "image": "walking_dead.gif", "name": "Walking Dead", "count": 20 },
+				{ "hex": "C", "image": "wight.gif", "name": "Wight", "count": 10 },
+				{ "hex": "D", "image": "vampire.gif", "name": "Vampire", "count": 5 }
+			],
+			"content": "2500",
+			"artifact": "Treasury",
+			"xp": 750
+		},
+		{
+			"id": 3,
+			"percent": "10%",
+			"guards": [
+				{ "hex": "A", "image": "skeleton.gif", "name": "Skeleton", "count": 20 },
+				{ "hex": "B", "image": "walking_dead.gif", "name": "Walking Dead", "count": 20 },
+				{ "hex": "C", "image": "wight.gif", "name": "Wight", "count": 10 },
+				{ "hex": "D", "image": "vampire.gif", "name": "Vampire", "count": 10 }
+			],
+			"content": "5000",
+			"artifact": "Treasury",
+			"xp": 900
+		}
+	]
+}
