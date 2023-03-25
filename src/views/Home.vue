@@ -27,7 +27,7 @@ import MenuHome from "../components/menu/MenuHome.vue";
 	width: 100%;
 	height: 100%;
 
-	background-image: url(/assets/images/home_image.jpg);
+	background-image: url(@/assets/images/home_image.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;

@@ -11,7 +11,7 @@
 					<div class="locations__image">
 						<img
 							class="locations__image__img"
-							:src="`/assets/images/locations/${location.src}`"
+							:src="`@/assets/images/locations/${location.src}`"
 							:alt="location.name" />
 					</div>
 					<span class="locations__name">{{ location.label }}</span>

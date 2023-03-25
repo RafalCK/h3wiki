@@ -20,7 +20,7 @@ body {
 	font-family: Cambria, sans-serif;
 	font-size: 16px;
 
-	background-image: url(/assets/images/background.jpg);
+	background-image: url(@/assets/images/background.jpg);
 
 	border-left: 4px solid $color-gold;
 	border-right: 4px solid $color-gold;

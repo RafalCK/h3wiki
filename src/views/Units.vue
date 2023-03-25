@@ -16,21 +16,21 @@
 							<span class="units__item__info__header">Attack</span>
 							<img
 								class="units__item__info__img"
-								src="/assets/images/att.jpg" />
+								src="@/assets/images/att.jpg" />
 							<span class="units__item__info__value">{{ unit.attack }}</span>
 						</div>
 						<div class="units__item__info">
 							<span class="units__item__info__header">Defense</span>
 							<img
 								class="units__item__info__img"
-								src="/assets/images/def.jpg" />
+								src="@/assets/images/def.jpg" />
 							<span class="units__item__info__value">{{ unit.defense }}</span>
 						</div>
 						<div class="units__item__info">
 							<span class="units__item__info__header">Damage</span>
 							<img
 								class="units__item__info__img"
-								src="/assets/images/dmg.jpg" />
+								src="@/assets/images/dmg.jpg" />
 							<span class="units__item__info__value">{{ unit.damage }}</span>
 						</div>
 						<div
@@ -39,36 +39,36 @@
 							<span class="units__item__info__header">Shots</span>
 							<img
 								class="units__item__info__img"
-								src="/assets/images/dmg.jpg" />
+								src="@/assets/images/dmg.jpg" />
 							<span class="units__item__info__value">{{ unit.shots }}</span>
 						</div>
 						<div class="units__item__info">
 							<span class="units__item__info__header">Health</span>
 							<img
 								class="units__item__info__img"
-								src="/assets/images/hp.jpg" />
+								src="@/assets/images/hp.jpg" />
 							<span class="units__item__info__value">{{ unit.health }}</span>
 						</div>
 						<div class="units__item__info">
 							<span class="units__item__info__header">Speed</span>
 							<img
 								class="units__item__info__img"
-								src="/assets/images/speed.jpg" />
+								src="@/assets/images/speed.jpg" />
 							<span class="units__item__info__value">{{ unit.speed }}</span>
 						</div>
 						<div class="units__item__info">
 							<span class="units__item__info__header">Growth</span>
 							<img
 								class="units__item__info__img"
-								src="/assets/images/growth.jpg" />
+								src="@/assets/images/growth.jpg" />
 							<span class="units__item__info__value">{{ unit.growth }}</span>
 						</div>
 						<div class="units__item__info">
 							<span class="units__item__info__header">Cost</span>
 							<img
 								class="units__item__info__img"
-								src="/assets/images/cost.jpg" />
-							<span class="units__item__info__value"><img src="/assets/images/gold.gif" /> {{ unit.valueMoney }}</span>
+								src="@/assets/images/cost.jpg" />
+							<span class="units__item__info__value"><img src="@/assets/images/gold.gif" /> {{ unit.valueMoney }}</span>
 						</div>
 
 						<div
@@ -78,7 +78,7 @@
 							<div class="units__item__info__image">
 								<img
 									class="units__item__info__image__img"
-									src="/assets/images/spec.jpg" />
+									src="@/assets/images/spec.jpg" />
 							</div>
 							<span class="units__item__info__value">Abilities</span>
 						</div>
@@ -102,7 +102,7 @@ const route = useRoute();
 const units = ref(null);
 
 onMounted(() => {
-	let link = "../src/assets/data/towns/" + route.params.name + ".json";
+	let link = "../src@/assets/data/towns/" + route.params.name + ".json";
 	fetch(link)
 		.then((res) => res.json())
 		.then((data) => (units.value = data))

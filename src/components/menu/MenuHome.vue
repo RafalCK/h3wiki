@@ -6,7 +6,7 @@
 				:key="item.id">
 				<li
 					class="menu__item"
-					:style="{ backgroundImage: `url(${'/assets/images/menu/' + item.img})` }">
+					:style="{ backgroundImage: `url(${imageUrl(item.img)})` }">
 					<router-link
 						:to="{ path: item.url }"
 						class="menu__link">
@@ -19,6 +19,9 @@
 </template>
 
 <script setup>
+const imageUrl = (item) => {
+	return new URL(`/src/assets/images/menu/${item}`, import.meta.url);
+};
 const menu = [
 	{
 		id: 0,
