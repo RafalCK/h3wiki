@@ -10,7 +10,7 @@
 					:to="`/spells/${magic.name}`">
 					<img
 						class="magics__img"
-						:src="`/assets/images/magics/${magic.src}`"
+						:src="`${imageUrl(magic.src)}`"
 						:alt="magic.name" />
 					<span class="magics__name">{{ magic.name }}</span>
 				</router-link>
@@ -23,6 +23,10 @@
 import magicsData from "../assets/data/magicsData.json";
 
 const magics = magicsData;
+
+const imageUrl = (item) => {
+	return new URL(`../assets/images/magics/${item}`, import.meta.url);
+};
 </script>
 
 <style lang="scss" scoped>

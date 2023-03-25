@@ -48,7 +48,7 @@ const menu = [
 
 <style lang="scss" scoped>
 .menu-mobile {
-	background: url("/assets/images/bg.gif");
+	background: url("@/assets/images/bg.gif");
 	top: 0;
 	left: 0;
 	right: 0;

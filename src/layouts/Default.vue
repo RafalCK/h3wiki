@@ -23,7 +23,7 @@ import TheHeader from "./components/TheHeader.vue";
 		background: white;
 		border-radius: rem(4);
 
-		background: url("/assets/images/bg.gif");
+		background: url("@/assets/images/bg.gif");
 
 		color: white;
 	}

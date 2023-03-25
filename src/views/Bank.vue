@@ -135,7 +135,7 @@ onMounted(() => {
 	overflow-x: auto;
 	width: 100%;
 	height: 100%;
-	background: url("/assets/images/bg.gif");
+	background: url("@/assets/images/bg.gif");
 	color: $color-white;
 	&__table {
 		display: block;

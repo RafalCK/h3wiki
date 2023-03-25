@@ -60,7 +60,7 @@ const menu = [
 <style lang="scss" scoped>
 .menu {
 	height: auto;
-	background: url("/assets/images/bg.gif");
+	background: url("@/assets/images/bg.gif");
 	border-bottom: 1px solid $color-gold;
 	filter: drop-shadow(0px 3px 10px rgba(244, 247, 249, 1));
 

@@ -10,11 +10,9 @@
 					:to="{ path: `/units/${town.name}` }">
 					<img
 						class="towns__img"
-						:src="`${imageUrl}/${town.src}`"
+						:src="`${imageUrl(town.src)}`"
 						:alt="town.name" />
 					<span class="towns__name">{{ town.name }}</span>
-					<span>{{ imageUrl() }}</span>
-					<span>{{ town.src }}</span>
 				</router-link>
 			</li>
 		</div>
@@ -24,11 +22,11 @@
 <script setup>
 import townsData from "../assets/data/townsData.json";
 
-const imageUrl = () => {
-	return new URL(`/src/assets/images/menu/`, import.meta.url).href;
-};
-
 const towns = townsData;
+
+const imageUrl = (item) => {
+	return new URL(`../assets/images/towns/${item}`, import.meta.url);
+};
 </script>
 
 <style lang="scss" scoped>
