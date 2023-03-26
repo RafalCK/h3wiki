@@ -14,7 +14,7 @@
 		"aiValue": 44,
 		"valueMoney": 30,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/tower/Gremlin.gif",
+		"imageUrl": "gremlin.gif",
 		"town": "tower"
 	},
 	{
@@ -32,7 +32,7 @@
 		"aiValue": 66,
 		"valueMoney": 40,
 		"specialAbilities": "Ranged attack",
-		"imageUrl": "assets/images/units/tower/Master_Gremlin.gif",
+		"imageUrl": "master_gremlin.gif",
 		"town": "tower"
 	},
 	{
@@ -50,7 +50,7 @@
 		"aiValue": 165,
 		"valueMoney": 130,
 		"specialAbilities": "Non-living",
-		"imageUrl": "assets/images/units/tower/Stone_Gargoyle.gif",
+		"imageUrl": "stone_gargoyle.gif",
 		"town": "tower"
 	},
 	{
@@ -68,7 +68,7 @@
 		"aiValue": 201,
 		"valueMoney": 160,
 		"specialAbilities": "Non-living",
-		"imageUrl": "assets/images/units/tower/Obsidian_Gargoyle.gif",
+		"imageUrl": "obsidian_gargoyle.gif",
 		"town": "tower"
 	},
 	{
@@ -86,7 +86,7 @@
 		"aiValue": 250,
 		"valueMoney": 150,
 		"specialAbilities": "Spell damage resistance 50%, Golem",
-		"imageUrl": "assets/images/units/tower/Stone_Golem.gif",
+		"imageUrl": "stone_golem.gif",
 		"town": "tower"
 	},
 	{
@@ -104,7 +104,7 @@
 		"aiValue": 412,
 		"valueMoney": 200,
 		"specialAbilities": "Spell damage resistance 75%, Golem",
-		"imageUrl": "assets/images/units/tower/Iron_Golem.gif",
+		"imageUrl": "iron_golem.gif",
 		"town": "tower"
 	},
 	{
@@ -122,7 +122,7 @@
 		"aiValue": 570,
 		"valueMoney": 350,
 		"specialAbilities": "Ranged attack, No melee penalty, Hero's combat spells cost 2 less mana, No Obstacle penalty",
-		"imageUrl": "assets/images/units/tower/Mage.gif",
+		"imageUrl": "mage.gif",
 		"town": "tower"
 	},
 	{
@@ -140,7 +140,7 @@
 		"aiValue": 680,
 		"valueMoney": 450,
 		"specialAbilities": "Ranged attack, No melee penalty, Hero's combat spells cost 2 less mana, No Obstacle penalty",
-		"imageUrl": "assets/images/units/tower/Arch_Mage.gif",
+		"imageUrl": "arch_mage.gif",
 		"town": "tower"
 	},
 	{
@@ -158,7 +158,7 @@
 		"aiValue": 884,
 		"valueMoney": 550,
 		"specialAbilities": "Hates efreeti",
-		"imageUrl": "assets/images/units/tower/Genie.gif",
+		"imageUrl": "genie.gif",
 		"town": "tower"
 	},
 	{
@@ -176,7 +176,7 @@
 		"aiValue": 942,
 		"valueMoney": 600,
 		"specialAbilities": "Hates efreeti, Spellcaster",
-		"imageUrl": "assets/images/units/tower/Master_Genie.gif",
+		"imageUrl": "master_genie.gif",
 		"town": "tower"
 	},
 	{
@@ -194,7 +194,7 @@
 		"aiValue": 2016,
 		"valueMoney": 1100,
 		"specialAbilities": "No enemy retaliation",
-		"imageUrl": "assets/images/units/tower/Naga.gif",
+		"imageUrl": "naga.gif",
 		"town": "tower"
 	},
 	{
@@ -212,7 +212,7 @@
 		"aiValue": 2840,
 		"valueMoney": 1600,
 		"specialAbilities": "No enemy retaliation",
-		"imageUrl": "assets/images/units/tower/Naga_Queen.gif",
+		"imageUrl": "naga_queen.gif",
 		"town": "tower"
 	},
 	{
@@ -230,7 +230,7 @@
 		"aiValue": 3718,
 		"valueMoney": 2000,
 		"specialAbilities": "Immunity to mind spells",
-		"imageUrl": "assets/images/units/tower/Giant.gif",
+		"imageUrl": "giant.gif",
 		"town": "tower"
 	},
 	{
@@ -248,7 +248,7 @@
 		"aiValue": 7500,
 		"valueMoney": 5000,
 		"specialAbilities": "Ranged attack, Immunity to mind spells, No melee Penalty, Hates Black Dragons",
-		"imageUrl": "assets/images/units/tower/Titan.gif",
+		"imageUrl": "titan.gif",
 		"town": "tower"
 	}
 ]

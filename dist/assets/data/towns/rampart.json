@@ -14,7 +14,7 @@
 		"aiValue": 100,
 		"valueMoney": 70,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/rampart/Centaur.gif",
+		"imageUrl": "centaur.gif",
 		"town": "rampart"
 	},
 	{
@@ -32,7 +32,7 @@
 		"aiValue": 138,
 		"valueMoney": 90,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/rampart/Centaur_Captain.gif",
+		"imageUrl": "centaur_captain.gif",
 		"town": "rampart"
 	},
 	{
@@ -50,7 +50,7 @@
 		"aiValue": 138,
 		"valueMoney": 120,
 		"specialAbilities": "Magic resistance 20%",
-		"imageUrl": "assets/images/units/rampart/Dwarf.gif",
+		"imageUrl": "dwarf.gif",
 		"town": "rampart"
 	},
 	{
@@ -68,7 +68,7 @@
 		"aiValue": 209,
 		"valueMoney": 150,
 		"specialAbilities": "Magic resistance 40%",
-		"imageUrl": "assets/images/units/rampart/Battle_Dwarf.gif",
+		"imageUrl": "battle_dwarf.gif",
 		"town": "rampart"
 	},
 	{
@@ -86,7 +86,7 @@
 		"aiValue": 234,
 		"valueMoney": 200,
 		"specialAbilities": "Ranged attack",
-		"imageUrl": "assets/images/units/rampart/Wood_Elf.gif",
+		"imageUrl": "wood_elf.gif",
 		"town": "rampart"
 	},
 	{
@@ -104,7 +104,7 @@
 		"aiValue": 331,
 		"valueMoney": 225,
 		"specialAbilities": "Ranged attack, Double attack",
-		"imageUrl": "assets/images/units/rampart/Grand_Elf.gif",
+		"imageUrl": "grand_elf.gif",
 		"town": "rampart"
 	},
 	{
@@ -122,7 +122,7 @@
 		"aiValue": 518,
 		"valueMoney": 250,
 		"specialAbilities": "Magic damper",
-		"imageUrl": "assets/images/units/rampart/Pegasus.gif",
+		"imageUrl": "pegasus.gif",
 		"town": "rampart"
 	},
 	{
@@ -140,7 +140,7 @@
 		"aiValue": 532,
 		"valueMoney": 275,
 		"specialAbilities": "Magic damper",
-		"imageUrl": "assets/images/units/rampart/Silver_Pegasus.gif",
+		"imageUrl": "silver_pegasus.gif",
 		"town": "rampart"
 	},
 	{
@@ -158,7 +158,7 @@
 		"aiValue": 517,
 		"valueMoney": 350,
 		"specialAbilities": "Binding",
-		"imageUrl": "assets/images/units/rampart/Dendroid_Guard.gif",
+		"imageUrl": "dendroid_guard.gif",
 		"town": "rampart"
 	},
 	{
@@ -176,7 +176,7 @@
 		"aiValue": 803,
 		"valueMoney": 425,
 		"specialAbilities": "Binding",
-		"imageUrl": "assets/images/units/rampart/Dendroid_Soldier.gif",
+		"imageUrl": "dendroid_soldier.gif",
 		"town": "rampart"
 	},
 	{
@@ -194,7 +194,7 @@
 		"aiValue": 1806,
 		"valueMoney": 850,
 		"specialAbilities": "Blinding 20%, Aura of magic resistance 20%",
-		"imageUrl": "assets/images/units/rampart/Unicorn.gif",
+		"imageUrl": "unicorn.gif",
 		"town": "rampart"
 	},
 	{
@@ -212,7 +212,7 @@
 		"aiValue": 2030,
 		"valueMoney": 950,
 		"specialAbilities": "Blinding 20%, Aura of magic resistance 20%",
-		"imageUrl": "assets/images/units/rampart/War_Unicorn.gif",
+		"imageUrl": "war_unicorn.gif",
 		"town": "rampart"
 	},
 	{
@@ -230,7 +230,7 @@
 		"aiValue": 4872,
 		"valueMoney": 2400,
 		"specialAbilities": "Breath attack, Immune to level 1–3 spells, Counts as dragon",
-		"imageUrl": "assets/images/units/rampart/Green_Dragon.gif",
+		"imageUrl": "green_dragon.gif",
 		"town": "rampart"
 	},
 	{
@@ -248,7 +248,7 @@
 		"aiValue": 8613,
 		"valueMoney": 4000,
 		"specialAbilities": "Breath attack, Immune to level 1–4 spells, Counts as dragon",
-		"imageUrl": "assets/images/units/rampart/Gold_Dragon.gif",
+		"imageUrl": "gold_dragon.gif",
 		"town": "rampart"
 	}
 ]

@@ -14,7 +14,7 @@
 		"aiValue": 50,
 		"valueMoney": 50,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/inferno/Imp.gif",
+		"imageUrl": "imp.gif",
 		"town": "inferno"
 	},
 	{
@@ -32,7 +32,7 @@
 		"aiValue": 60,
 		"valueMoney": 60,
 		"specialAbilities": "Magic channel",
-		"imageUrl": "assets/images/units/inferno/Familiar.gif",
+		"imageUrl": "familiar.gif",
 		"town": "inferno"
 	},
 	{
@@ -50,7 +50,7 @@
 		"aiValue": 159,
 		"valueMoney": 125,
 		"specialAbilities": "Ranged attack",
-		"imageUrl": "assets/images/units/inferno/Gog.gif",
+		"imageUrl": "gog.gif",
 		"town": "inferno"
 	},
 	{
@@ -68,7 +68,7 @@
 		"aiValue": 240,
 		"valueMoney": 175,
 		"specialAbilities": "Ranged attack, Fireball Attack",
-		"imageUrl": "assets/images/units/inferno/Magog.gif",
+		"imageUrl": "magog.gif",
 		"town": "inferno"
 	},
 	{
@@ -86,7 +86,7 @@
 		"aiValue": 357,
 		"valueMoney": 200,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/inferno/Hell_Hound.gif",
+		"imageUrl": "hell_hound.gif",
 		"town": "inferno"
 	},
 	{
@@ -104,7 +104,7 @@
 		"aiValue": 392,
 		"valueMoney": 250,
 		"specialAbilities": "3-headed attack, No enemy retaliation",
-		"imageUrl": "assets/images/units/inferno/Cerberus.gif",
+		"imageUrl": "cerberus.gif",
 		"town": "inferno"
 	},
 	{
@@ -122,7 +122,7 @@
 		"aiValue": 445,
 		"valueMoney": 250,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/inferno/Demon.gif",
+		"imageUrl": "demon.gif",
 		"town": "inferno"
 	},
 	{
@@ -140,7 +140,7 @@
 		"aiValue": 480,
 		"valueMoney": 270,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/inferno/Horned_Demon.gif",
+		"imageUrl": "horned_demon.gif",
 		"town": "inferno"
 	},
 	{
@@ -158,7 +158,7 @@
 		"aiValue": 765,
 		"valueMoney": 500,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/inferno/Pit_Fiend.gif",
+		"imageUrl": "pit_fiend.gif",
 		"town": "inferno"
 	},
 	{
@@ -176,7 +176,7 @@
 		"aiValue": 1224,
 		"valueMoney": 700,
 		"specialAbilities": "Summon demons",
-		"imageUrl": "assets/images/units/inferno/Pit_Lord.gif",
+		"imageUrl": "pit_lord.gif",
 		"town": "inferno"
 	},
 	{
@@ -194,7 +194,7 @@
 		"aiValue": 1670,
 		"valueMoney": 900,
 		"specialAbilities": "Immune to fire (Magic Arrow included), Hates genies",
-		"imageUrl": "assets/images/units/inferno/Efreet.gif",
+		"imageUrl": "efreet.gif",
 		"town": "inferno"
 	},
 	{
@@ -212,7 +212,7 @@
 		"aiValue": 1848,
 		"valueMoney": 1100,
 		"specialAbilities": "Immune to fire (Magic Arrow included), Hates genies, Fire Shield",
-		"imageUrl": "assets/images/units/inferno/Efreet_Sultan.gif",
+		"imageUrl": "efreet_sultan.gif",
 		"town": "inferno"
 	},
 	{
@@ -230,7 +230,7 @@
 		"aiValue": 5101,
 		"valueMoney": 2700,
 		"specialAbilities": "-1 to enemy luck + no enemy retaliation + Hates angels",
-		"imageUrl": "assets/images/units/inferno/Devil.gif",
+		"imageUrl": "devil.gif",
 		"town": "inferno"
 	},
 	{
@@ -248,7 +248,7 @@
 		"aiValue": 7115,
 		"valueMoney": 4500,
 		"specialAbilities": "-1 (-2 in Horn of the Abyss ) to enemy luck + no enemy retaliation + Hates angels",
-		"imageUrl": "assets/images/units/inferno/Arch_Devil.gif",
+		"imageUrl": "arch_devil.gif",
 		"town": "inferno"
 	}
 ]

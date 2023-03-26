@@ -14,7 +14,7 @@
 		"aiValue": 57,
 		"valueMoney": 35,
 		"specialAbilities": "Immune to Ice Bolt and Frost Ring",
-		"imageUrl": "assets/images/units/cove/Nymph.gif",
+		"imageUrl": "nymph.gif",
 		"town": "cove"
 	},
 	{
@@ -32,7 +32,7 @@
 		"aiValue": 75,
 		"valueMoney": 45,
 		"specialAbilities": "Immune to Ice Bolt and Frost Ring",
-		"imageUrl": "assets/images/units/cove/Oceanid.gif",
+		"imageUrl": "oceanid.gif",
 		"town": "cove"
 	},
 	{
@@ -50,7 +50,7 @@
 		"aiValue": 155,
 		"valueMoney": 110,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/cove/Crew_Mate.gif",
+		"imageUrl": "crew_mate.gif",
 		"town": "cove"
 	},
 	{
@@ -68,7 +68,7 @@
 		"aiValue": 174,
 		"valueMoney": 140,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/cove/Seaman.gif",
+		"imageUrl": "seaman.gif",
 		"town": "cove"
 	},
 	{
@@ -86,7 +86,7 @@
 		"aiValue": 312,
 		"valueMoney": 225,
 		"specialAbilities": "Ranged attack, No melee penalty",
-		"imageUrl": "assets/images/units/cove/Pirate.gif",
+		"imageUrl": "pirate.gif",
 		"town": "cove"
 	},
 	{
@@ -104,7 +104,7 @@
 		"aiValue": 407,
 		"valueMoney": 275,
 		"specialAbilities": "Ranged attack, No melee penalty, No enemy retaliation",
-		"imageUrl": "assets/images/units/cove/Corsair.gif",
+		"imageUrl": "corsair.gif",
 		"town": "cove"
 	},
 	{
@@ -123,7 +123,7 @@
 		"aiValue": 602,
 		"valueMoney": 375,
 		"specialAbilities": "Ranged attack, No melee penalty, No enemy retaliation, Accurate shot. The ability is triggered after a shot: each creature in an attacking stack has a X% chance of killing a creature in the attacked squad, but the total number of killed creatures cannot be more than(number of creatures in an attacking squad) * X / 100(rounded up).X = 3 multiplier for shooting without penalty and X = 2 if shooting with penalty.Ability doesn't work if shooting at creatures behind walls",
-		"imageUrl": "assets/images/units/cove/Sea_Dog.gif",
+		"imageUrl": "sea_dog.gif",
 		"town": "cove"
 	},
 	{
@@ -141,7 +141,7 @@
 		"aiValue": 502,
 		"valueMoney": 275,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/cove/Stormbird.gif",
+		"imageUrl": "stormbird.gif",
 		"town": "cove"
 	},
 	{
@@ -159,7 +159,7 @@
 		"aiValue": 645,
 		"valueMoney": 325,
 		"specialAbilities": "Ferocity. If at least one creature was killed by the attack, a second blow is inflicted",
-		"imageUrl": "assets/images/units/cove/Ayssid.gif",
+		"imageUrl": "ayssid.gif",
 		"town": "cove"
 	},
 	{
@@ -177,7 +177,7 @@
 		"aiValue": 790,
 		"valueMoney": 515,
 		"specialAbilities": "Ranged attack, Casts after a shot (Basic level). Casts Weakness for 3 rounds on an attacked stack. If Weakness is already applied, casts Disrupting Ray",
-		"imageUrl": "assets/images/units/cove/Sea_Witch.gif",
+		"imageUrl": "sea_witch.gif",
 		"town": "cove"
 	},
 	{
@@ -195,7 +195,7 @@
 		"aiValue": 852,
 		"valueMoney": 565,
 		"specialAbilities": "Ranged attack, Casts after the shot (Advanced level). Casts Weakness for 3 rounds on an attacked stack. If Weakness is already applied, casts Disrupting Ray",
-		"imageUrl": "assets/images/units/cove/Sorceress.gif",
+		"imageUrl": "sorceress.gif",
 		"town": "cove"
 	},
 	{
@@ -213,7 +213,7 @@
 		"aiValue": 1415,
 		"valueMoney": 1000,
 		"specialAbilities": "Ignores 30% of enemy's attack skill (= 30% of the attack parameter is ignored  a creature attacks Nix)",
-		"imageUrl": "assets/images/units/cove/Nix.gif",
+		"imageUrl": "nix.gif",
 		"town": "cove"
 	},
 	{
@@ -231,7 +231,7 @@
 		"aiValue": 2116,
 		"valueMoney": 1300,
 		"specialAbilities": "Ignores 60% of enemy's attack skill. (= 60% of the attack parameter is ignored when a creature attacks Nix Warrior)",
-		"imageUrl": "assets/images/units/cove/Nix_Warrior.gif",
+		"imageUrl": "nix_warrior.gif",
 		"town": "cove"
 	},
 	{
@@ -249,7 +249,7 @@
 		"aiValue": 3953,
 		"valueMoney": 2200,
 		"specialAbilities": "Poisonous. Has a 30% chance to poison enemy after the attack.Decrements 10% of Max Health instantly and at the beginning of every round. Lasts for 3 rounds.Cannot exceed 50% of total decremented Health",
-		"imageUrl": "assets/images/units/cove/Sea_Serpent.gif",
+		"imageUrl": "sea_serpent.gif",
 		"town": "cove"
 	},
 	{
@@ -267,7 +267,7 @@
 		"aiValue": 7220,
 		"valueMoney": 4000,
 		"specialAbilities": "Poisonous. Has a 30% chance to poison enemy after the attack. Decrements 10% of Max Health instantly and at the beginning of every round. Lasts for 3 rounds. Cannot exceed 50% of total decremented Health, Revenge. Has an increase to the Damage parameter before the attack by the following formula: (((number of haspids at the beginning of the battle + 1) * (1 haspid health) / (total health now + 1 haspid health) - 1) ^ 0.5) * 100%",
-		"imageUrl": "assets/images/units/cove/Haspid.gif",
+		"imageUrl": "haspid.gif",
 		"town": "cove"
 	}
 ]

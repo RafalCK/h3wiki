@@ -14,7 +14,7 @@
 		"aiValue": 80,
 		"valueMoney": 60,
 		"specialAbilities": "Immune to jousting",
-		"imageUrl": "assets/images/units/castle/Pikeman.gif",
+		"imageUrl": "pikeman.gif",
 		"town": "castle"
 	},
 	{
@@ -32,7 +32,7 @@
 		"aiValue": 115,
 		"valueMoney": 75,
 		"specialAbilities": "Immune to jousting",
-		"imageUrl": "../assets/images/units/castle/Halberdier.gif",
+		"imageUrl": "halberdier.gif",
 		"town": "castle"
 	},
 	{
@@ -50,7 +50,7 @@
 		"aiValue": 126,
 		"valueMoney": 100,
 		"specialAbilities": "Ranged attack",
-		"imageUrl": "assets/images/units/castle/Archer.gif",
+		"imageUrl": "archer.gif",
 		"town": "castle"
 	},
 	{
@@ -68,7 +68,7 @@
 		"aiValue": 184,
 		"valueMoney": 150,
 		"specialAbilities": "Ranged attack, Double attack",
-		"imageUrl": "assets/images/units/castle/Marksman.gif",
+		"imageUrl": "marksman.gif",
 		"town": "castle"
 	},
 	{
@@ -86,7 +86,7 @@
 		"aiValue": 351,
 		"valueMoney": 200,
 		"specialAbilities": "Two retaliations",
-		"imageUrl": "assets/images/units/castle/Griffin.gif",
+		"imageUrl": "griffin.gif",
 		"town": "castle"
 	},
 	{
@@ -104,7 +104,7 @@
 		"aiValue": 448,
 		"valueMoney": 240,
 		"specialAbilities": "Unlimited retaliations",
-		"imageUrl": "assets/images/units/castle/Royal_Griffin.gif",
+		"imageUrl": "royal_griffin.gif",
 		"town": "castle"
 	},
 	{
@@ -122,7 +122,7 @@
 		"aiValue": 445,
 		"valueMoney": 300,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/castle/Swordsman.gif",
+		"imageUrl": "swordsman.gif",
 		"town": "castle"
 	},
 	{
@@ -140,7 +140,7 @@
 		"aiValue": 588,
 		"valueMoney": 400,
 		"specialAbilities": "Double attack",
-		"imageUrl": "assets/images/units/castle/Crusader.gif",
+		"imageUrl": "crusader.gif",
 		"town": "castle"
 	},
 	{
@@ -158,7 +158,7 @@
 		"aiValue": 485,
 		"valueMoney": 400,
 		"specialAbilities": "Ranged attack",
-		"imageUrl": "assets/images/units/castle/Monk.gif",
+		"imageUrl": "monk.gif",
 		"town": "castle"
 	},
 	{
@@ -176,7 +176,7 @@
 		"aiValue": 750,
 		"valueMoney": 450,
 		"specialAbilities": "Ranged attack, No melee penalty",
-		"imageUrl": "assets/images/units/castle/Zealot.gif",
+		"imageUrl": "zealot.gif",
 		"town": "castle"
 	},
 	{
@@ -194,7 +194,7 @@
 		"aiValue": 1946,
 		"valueMoney": 1000,
 		"specialAbilities": "Jousting bonus",
-		"imageUrl": "/assets/images/units/castle/Cavalier.gif",
+		"imageUrl": "cavalier.gif",
 		"town": "castle"
 	},
 	{
@@ -212,7 +212,7 @@
 		"aiValue": 2100,
 		"valueMoney": 1200,
 		"specialAbilities": "Jousting bonus",
-		"imageUrl": "/assets/images/units/castle/Champion.gif",
+		"imageUrl": "champion.gif",
 		"town": "castle"
 	},
 	{
@@ -230,7 +230,7 @@
 		"aiValue": 5019,
 		"valueMoney": 3000,
 		"specialAbilities": "Hates devils, +1 morale to units in hero's army",
-		"imageUrl": "/assets/images/units/castle/Angel.gif",
+		"imageUrl": "angel.gif",
 		"town": "castle"
 	},
 	{
@@ -248,7 +248,7 @@
 		"aiValue": 8776,
 		"valueMoney": 5000,
 		"specialAbilities": "Hates devils, +1 morale to units in hero's army, Can cast resurrection",
-		"imageUrl": "/assets/images/units/castle/Archangel.gif",
+		"imageUrl": "archangel.gif",
 		"town": "castle"
 	}
 ]

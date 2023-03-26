@@ -92,7 +92,7 @@ const route = useRoute();
 const spells = ref(null);
 
 onMounted(() => {
-	let link = "@/assets/data/magics/" + route.params.name + ".json";
+	let link = "../src/assets/data/magics/" + route.params.name + ".json";
 	fetch(link)
 		.then((res) => res.json())
 		.then((data) => (spells.value = data))

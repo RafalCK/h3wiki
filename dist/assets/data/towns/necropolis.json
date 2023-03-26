@@ -14,7 +14,7 @@
 		"aiValue": 60,
 		"valueMoney": 60,
 		"specialAbilities": "Undead",
-		"imageUrl": "assets/images/units/necropolis/Skeleton.gif",
+		"imageUrl": "skeleton.gif",
 		"town": "necropolis"
 	},
 	{
@@ -32,7 +32,7 @@
 		"aiValue": 85,
 		"valueMoney": 70,
 		"specialAbilities": "Undead",
-		"imageUrl": "assets/images/units/necropolis/Skeleton_Warrior.gif",
+		"imageUrl": "skeleton_warrior.gif",
 		"town": "necropolis"
 	},
 	{
@@ -50,7 +50,7 @@
 		"aiValue": 98,
 		"valueMoney": 100,
 		"specialAbilities": "Undead",
-		"imageUrl": "assets/images/units/necropolis/Walking_Dead.gif",
+		"imageUrl": "walking_dead.gif",
 		"town": "necropolis"
 	},
 	{
@@ -68,7 +68,7 @@
 		"aiValue": 128,
 		"valueMoney": 125,
 		"specialAbilities": "Undead, Disease",
-		"imageUrl": "assets/images/units/necropolis/Zombie.gif",
+		"imageUrl": "zombie.gif",
 		"town": "necropolis"
 	},
 	{
@@ -86,7 +86,7 @@
 		"aiValue": 252,
 		"valueMoney": 200,
 		"specialAbilities": "Undead, Regeneration",
-		"imageUrl": "assets/images/units/necropolis/Wight.gif",
+		"imageUrl": "wight.gif",
 		"town": "necropolis"
 	},
 	{
@@ -104,7 +104,7 @@
 		"aiValue": 315,
 		"valueMoney": 230,
 		"specialAbilities": "Undead, Regeneration, Mana drain",
-		"imageUrl": "assets/images/units/necropolis/Wraith.gif",
+		"imageUrl": "wraith.gif",
 		"town": "necropolis"
 	},
 	{
@@ -122,7 +122,7 @@
 		"aiValue": 555,
 		"valueMoney": 360,
 		"specialAbilities": "Undead, No enemy retaliation",
-		"imageUrl": "assets/images/units/necropolis/Vampire.gif",
+		"imageUrl": "vampire.gif",
 		"town": "necropolis"
 	},
 	{
@@ -140,7 +140,7 @@
 		"aiValue": 783,
 		"valueMoney": 500,
 		"specialAbilities": "Undead, No enemy retaliation, Life drain",
-		"imageUrl": "assets/images/units/necropolis/Vampire_Lord.gif",
+		"imageUrl": "vampire_lord.gif",
 		"town": "necropolis"
 	},
 	{
@@ -158,7 +158,7 @@
 		"aiValue": 848,
 		"valueMoney": 550,
 		"specialAbilities": "Undead, Ranged attack, Death cloud",
-		"imageUrl": "assets/images/units/necropolis/Lich.gif",
+		"imageUrl": "lich.gif",
 		"town": "necropolis"
 	},
 	{
@@ -176,7 +176,7 @@
 		"aiValue": 1079,
 		"valueMoney": 600,
 		"specialAbilities": "Undead, Ranged attack, Death cloud",
-		"imageUrl": "assets/images/units/necropolis/Power_Lich.gif",
+		"imageUrl": "power_lich.gif",
 		"town": "necropolis"
 	},
 	{
@@ -194,7 +194,7 @@
 		"aiValue": 2087,
 		"valueMoney": 1200,
 		"specialAbilities": "Undead, Curses enemies",
-		"imageUrl": "assets/images/units/necropolis/Black_Knight.gif",
+		"imageUrl": "black_knight.gif",
 		"town": "necropolis"
 	},
 	{
@@ -212,7 +212,7 @@
 		"aiValue": 2382,
 		"valueMoney": 1500,
 		"specialAbilities": "Undead, Curses enemies, Death blow attack",
-		"imageUrl": "assets/images/units/necropolis/Dread_Knight.gif",
+		"imageUrl": "dread_knight.gif",
 		"town": "necropolis"
 	},
 	{
@@ -230,7 +230,7 @@
 		"aiValue": 3388,
 		"valueMoney": 1800,
 		"specialAbilities": "Undead, Decreases enemy morale by -1, Dragon",
-		"imageUrl": "assets/images/units/necropolis/Bone_Dragon.gif",
+		"imageUrl": "bone_dragon.gif",
 		"town": "necropolis"
 	},
 	{
@@ -248,7 +248,7 @@
 		"aiValue": 4696,
 		"valueMoney": 3000,
 		"specialAbilities": "Undead, Decreases enemy morale by -1, Dragon, Aging 20%",
-		"imageUrl": "assets/images/units/necropolis/Ghost_Dragon.gif",
+		"imageUrl": "ghost_dragon.gif",
 		"town": "necropolis"
 	}
 ]

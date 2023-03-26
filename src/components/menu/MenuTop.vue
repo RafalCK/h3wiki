@@ -57,7 +57,7 @@ const menu = [
 ];
 </script>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 .menu {
 	height: auto;
 	background: url("@/assets/images/bg.gif");

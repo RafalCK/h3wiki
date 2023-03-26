@@ -14,7 +14,7 @@
 		"aiValue": 59,
 		"valueMoney": 50,
 		"specialAbilities": "Immune to blinding, Immune to petrification",
-		"imageUrl": "assets/images/units/dungeon/Troglodyte.gif",
+		"imageUrl": "troglodyte.gif",
 		"town": "dungeon"
 	},
 	{
@@ -32,7 +32,7 @@
 		"aiValue": 84,
 		"valueMoney": 65,
 		"specialAbilities": "Immune to blinding, Immune to petrification",
-		"imageUrl": "assets/images/units/dungeon/Infernal_Troglodyte.gif",
+		"imageUrl": "infernal_troglodyte.gif",
 		"town": "dungeon"
 	},
 	{
@@ -50,7 +50,7 @@
 		"aiValue": 154,
 		"valueMoney": 130,
 		"specialAbilities": "Strike and return",
-		"imageUrl": "assets/images/units/dungeon/Harpy.gif",
+		"imageUrl": "harpy.gif",
 		"town": "dungeon"
 	},
 	{
@@ -68,7 +68,7 @@
 		"aiValue": 238,
 		"valueMoney": 170,
 		"specialAbilities": "Strike and return, No enemy retaliation",
-		"imageUrl": "assets/images/units/dungeon/Harpy_Hag.gif",
+		"imageUrl": "harpy_hag.gif",
 		"town": "dungeon"
 	},
 	{
@@ -86,7 +86,7 @@
 		"aiValue": 336,
 		"valueMoney": 250,
 		"specialAbilities": "Ranged attack, No melee penalty",
-		"imageUrl": "assets/images/units/dungeon/Beholder.gif",
+		"imageUrl": "beholder.gif",
 		"town": "dungeon"
 	},
 	{
@@ -104,7 +104,7 @@
 		"aiValue": 367,
 		"valueMoney": 280,
 		"specialAbilities": "Ranged attack, No melee penalty",
-		"imageUrl": "assets/images/units/dungeon/Evil_Eye.gif",
+		"imageUrl": "evil_eye.gif",
 		"town": "dungeon"
 	},
 	{
@@ -122,7 +122,7 @@
 		"aiValue": 517,
 		"valueMoney": 300,
 		"specialAbilities": "Ranged attack, No melee penalty, Stone gaze 20%",
-		"imageUrl": "assets/images/units/dungeon/Medusa.gif",
+		"imageUrl": "medusa.gif",
 		"town": "dungeon"
 	},
 	{
@@ -140,7 +140,7 @@
 		"aiValue": 577,
 		"valueMoney": 330,
 		"specialAbilities": "Ranged attack, No melee penalty, Stone gaze 20%",
-		"imageUrl": "assets/images/units/dungeon/Medusa_Queen.gif",
+		"imageUrl": "medusa_queen.gif",
 		"town": "dungeon"
 	},
 	{
@@ -158,7 +158,7 @@
 		"aiValue": 835,
 		"valueMoney": 500,
 		"specialAbilities": "Permanent morale +1",
-		"imageUrl": "assets/images/units/dungeon/Minotaur.gif",
+		"imageUrl": "minotaur.gif",
 		"town": "dungeon"
 	},
 	{
@@ -176,7 +176,7 @@
 		"aiValue": 1068,
 		"valueMoney": 575,
 		"specialAbilities": "Permanent morale +1",
-		"imageUrl": "assets/images/units/dungeon/Minotaur_King.gif",
+		"imageUrl": "minotaur_king.gif",
 		"town": "dungeon"
 	},
 	{
@@ -194,7 +194,7 @@
 		"aiValue": 1547,
 		"valueMoney": 850,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/dungeon/Manticore.gif",
+		"imageUrl": "manticore.gif",
 		"town": "dungeon"
 	},
 	{
@@ -212,7 +212,7 @@
 		"aiValue": 1589,
 		"valueMoney": 1050,
 		"specialAbilities": "Paralyzing Venom",
-		"imageUrl": "assets/images/units/dungeon/Scorpicore.gif",
+		"imageUrl": "scorpicore.gif",
 		"town": "dungeon"
 	},
 	{
@@ -230,7 +230,7 @@
 		"aiValue": 4702,
 		"valueMoney": 2500,
 		"specialAbilities": "Dragon, Breath attack, Immune to spells level 1–3",
-		"imageUrl": "assets/images/units/dungeon/Red_Dragon.gif",
+		"imageUrl": "red_dragon.gif",
 		"town": "dungeon"
 	},
 	{
@@ -248,7 +248,7 @@
 		"aiValue": 8721,
 		"valueMoney": 4000,
 		"specialAbilities": "Dragon, Breath attack, Immune to all spells, Hates Titans",
-		"imageUrl": "assets/images/units/dungeon/Black_Dragon.gif",
+		"imageUrl": "black_dragon.gif",
 		"town": "dungeon"
 	}
 ]

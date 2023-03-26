@@ -10,7 +10,7 @@
 					{{ unit.name }}
 				</div>
 				<div class="units__item__box">
-					<div class="units__item__img"><img :src="`${imageUrl(unit.src)}`" /></div>
+					<div class="units__item__img"><img :src="`${imageUrl(unit.imageUrl)}`" /></div>
 					<div class="units__item__container__info">
 						<div class="units__item__info">
 							<span class="units__item__info__header">Attack</span>
@@ -99,14 +99,12 @@ import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 
 const route = useRoute();
-const units = ref(null);
 
-onMounted(() => {
-	let link = "../src/assets/data/towns/" + route.params.name + ".json";
-	fetch(link)
-		.then((res) => res.json())
-		.then((data) => (units.value = data))
-		.catch((err) => console.log(err.message));
+const units = ref([]);
+
+onMounted(async () => {
+	const response = await fetch("../assets/data/towns/" + route.params.name + ".json");
+	units.value = await response.json();
 });
 
 const imageUrl = (item) => {

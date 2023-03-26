@@ -14,8 +14,8 @@
 		"aiValue": 60,
 		"valueMoney": 40,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/stronghold/Goblin.gif",
-		"town": "stronghold"
+		"imageUrl": "goblin.gif",
+		"town": "stroghold"
 	},
 	{
 		"id": "86",
@@ -32,7 +32,7 @@
 		"aiValue": 78,
 		"valueMoney": 50,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/stronghold/Hobgoblin.gif",
+		"imageUrl": "hobgoblin.gif",
 		"town": "stronghold"
 	},
 	{
@@ -50,7 +50,7 @@
 		"aiValue": 130,
 		"valueMoney": 100,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/stronghold/Wolf_Rider.gif",
+		"imageUrl": "wolf_rider.gif",
 		"town": "stronghold"
 	},
 	{
@@ -68,7 +68,7 @@
 		"aiValue": 203,
 		"valueMoney": 140,
 		"specialAbilities": "Double attack",
-		"imageUrl": "assets/images/units/stronghold/Wolf_Raider.gif",
+		"imageUrl": "wolf_raider.gif",
 		"town": "stronghold"
 	},
 	{
@@ -86,7 +86,7 @@
 		"aiValue": 192,
 		"valueMoney": 150,
 		"specialAbilities": "Ranged attack",
-		"imageUrl": "assets/images/units/stronghold/Orc.gif",
+		"imageUrl": "orc.gif",
 		"town": "stronghold"
 	},
 	{
@@ -104,7 +104,7 @@
 		"aiValue": 240,
 		"valueMoney": 165,
 		"specialAbilities": "Ranged attack",
-		"imageUrl": "assets/images/units/stronghold/Orc_Chieftain.gif",
+		"imageUrl": "orc_chieftain.gif",
 		"town": "stronghold"
 	},
 	{
@@ -122,7 +122,7 @@
 		"aiValue": 416,
 		"valueMoney": 300,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/stronghold/Ogre.gif",
+		"imageUrl": "ogre.gif",
 		"town": "stronghold"
 	},
 	{
@@ -140,7 +140,7 @@
 		"aiValue": 672,
 		"valueMoney": 400,
 		"specialAbilities": "Spellcaster (Bloodlust)",
-		"imageUrl": "assets/images/units/stronghold/Ogre_Mage.gif",
+		"imageUrl": "ogre_mage.gif",
 		"town": "stronghold"
 	},
 	{
@@ -158,7 +158,7 @@
 		"aiValue": 1027,
 		"valueMoney": 600,
 		"specialAbilities": "",
-		"imageUrl": "assets/images/units/stronghold/Roc.gif",
+		"imageUrl": "roc.gif",
 		"town": "stronghold"
 	},
 	{
@@ -176,7 +176,7 @@
 		"aiValue": 1106,
 		"valueMoney": 700,
 		"specialAbilities": "Lightning strike",
-		"imageUrl": "assets/images/units/stronghold/Thunderbird.gif",
+		"imageUrl": "thunderbird.gif",
 		"town": "stronghold"
 	},
 	{
@@ -194,7 +194,7 @@
 		"aiValue": 1266,
 		"valueMoney": 750,
 		"specialAbilities": "Ranged attack, Can attack siege walls",
-		"imageUrl": "assets/images/units/stronghold/Cyclops.gif",
+		"imageUrl": "cyclops.gif",
 		"town": "stronghold"
 	},
 	{
@@ -212,7 +212,7 @@
 		"aiValue": 1443,
 		"valueMoney": 1100,
 		"specialAbilities": "Ranged attack, Can attack siege walls",
-		"imageUrl": "assets/images/units/stronghold/Cyclops_King.gif",
+		"imageUrl": "cyclops_king.gif",
 		"town": "stronghold"
 	},
 	{
@@ -230,7 +230,7 @@
 		"aiValue": 3162,
 		"valueMoney": 1500,
 		"specialAbilities": "Attack reduces enemy's defense by 40% and 1 point temporarily",
-		"imageUrl": "assets/images/units/stronghold/Behemoth.gif",
+		"imageUrl": "behemoth.gif",
 		"town": "stronghold"
 	},
 	{
@@ -248,7 +248,7 @@
 		"aiValue": 6168,
 		"valueMoney": 3000,
 		"specialAbilities": "Attack reduces enemy's defense by 80% and 1 point temporarily",
-		"imageUrl": "assets/images/units/stronghold/Ancient_Behemoth.gif",
+		"imageUrl": "ancient_behemoth.gif",
 		"town": "stronghold"
 	}
 ]
