@@ -3,126 +3,126 @@
 		"id": "27",
 		"name": "Amulet of the Undertaker",
 		"rarity": "Treasure",
-		"imageUrl": "assets/images/artifacts/neck/aotu.gif",
+		"imageUrl": "aotu.gif",
 		"description": "Worn about the neck, this amulet increases your Necromancy skill by 5%."
 	},
 	{
 		"id": "28",
 		"name": "Collar of Conjuring",
 		"rarity": "Treasure",
-		"imageUrl": "assets/images/artifacts/neck/coc.gif",
+		"imageUrl": "coc.gif",
 		"description": "Worn about the neck, this item increases the duration of all your spells by 1."
 	},
 	{
 		"id": "29",
 		"name": "Necklace of Swiftness",
 		"rarity": "Treasure",
-		"imageUrl": "assets/images/artifacts/neck/nos.gif",
+		"imageUrl": "nos.gif",
 		"description": "Worn about the neck, this necklace increases the combat speed of all your units by +1."
 	},
 	{
 		"id": "30",
 		"name": "Pendant of Death",
 		"rarity": "Treasure",
-		"imageUrl": "assets/images/artifacts/neck/pod.gif",
+		"imageUrl": "pod.gif",
 		"description": "Wearing this item renders your units immune to the Destroy Undead spell."
 	},
 	{
 		"id": "31",
 		"name": "Pendant of Dispassion",
 		"rarity": "Treasure",
-		"imageUrl": "assets/images/artifacts/neck/pode.gif",
+		"imageUrl": "pode.gif",
 		"description": "Wearing this item renders your units immune to the Berserk spell."
 	},
 	{
 		"id": "32",
 		"name": "Pendant of Free Will",
 		"rarity": "Treasure",
-		"imageUrl": "assets/images/artifacts/neck/pofw.gif",
+		"imageUrl": "pofw.gif",
 		"description": "Wearing this item renders your units immune to the Hypnotize spell."
 	},
 	{
 		"id": "33",
 		"name": "Pendant of Holiness",
 		"rarity": "Treasure",
-		"imageUrl": "assets/images/artifacts/neck/poh.gif",
+		"imageUrl": "poh.gif",
 		"description": "Wearing this item renders your units immune to the Curse spell."
 	},
 	{
 		"id": "34",
 		"name": "Pendant of Life",
 		"rarity": "Treasure",
-		"imageUrl": "assets/images/artifacts/neck/pol.gif",
+		"imageUrl": "pol.gif",
 		"description": "Wearing this item renders your units immune to the Death Ripple spell."
 	},
 	{
 		"id": "35",
 		"name": "Pendant of Negativity",
 		"rarity": "Treasure",
-		"imageUrl": "assets/images/artifacts/neck/pon.gif",
+		"imageUrl": "pon.gif",
 		"description": "Wearing this item renders your units immune to the Lightning Bolt and Chain Lightning spells."
 	},
 	{
 		"id": "36",
 		"name": "Pendant of Total Recall",
 		"rarity": "Treasure",
-		"imageUrl": "assets/images/artifacts/neck/potr.gif",
+		"imageUrl": "potr.gif",
 		"description": "Wearing this item renders your units immune to the Forgetfulness spell."
 	},
 	{
 		"id": "37",
 		"name": "Garniture of Interference",
 		"rarity": "Major",
-		"imageUrl": "assets/images/artifacts/neck/goi.gif",
+		"imageUrl": "goi.gif",
 		"description": "Worn about the neck, this item increases your Magic Resistance by 5%."
 	},
 	{
 		"id": "38",
 		"name": "Necklace of Dragonteeth",
 		"rarity": "Major",
-		"imageUrl": "assets/images/artifacts/neck/nod.gif",
+		"imageUrl": "nod.gif",
 		"description": "Worn about the neck, this item increases your Knowledge and Power skills by +3."
 	},
 	{
 		"id": "39",
 		"name": "Necklace of Ocean Guidance",
 		"rarity": "Major",
-		"imageUrl": "assets/images/artifacts/neck/noog.gif",
+		"imageUrl": "noog.gif",
 		"description": "Worn about the neck, this necklace increases your hero's movement rate at sea."
 	},
 	{
 		"id": "40",
 		"name": "Pendant of Courage",
 		"rarity": "Major",
-		"imageUrl": "assets/images/artifacts/neck/poc.gif",
+		"imageUrl": "poc.gif",
 		"description": "When worn, this item bestows +3 Luck and Morale to your hero's troops."
 	},
 	{
 		"id": "41",
 		"name": "Pendant of Negativity",
 		"rarity": "Major",
-		"imageUrl": "assets/images/artifacts/neck/pon.gif",
+		"imageUrl": "pon.gif",
 		"description": "Wearing this item renders your units immune to the Lightning Bolt and Chain Lightning spells."
 	},
 	{
 		"id": "42",
 		"name": "Pendant of Second Sight",
 		"rarity": "Major",
-		"imageUrl": "assets/images/artifacts/neck/poss.gif",
+		"imageUrl": "poss.gif",
 		"description": "Wearing this item renders your units immune to the Blind spell."
 	},
 	{
 		"id": "43",
 		"name": "Statesman's Medal",
 		"rarity": "Major",
-		"imageUrl": "assets/images/artifacts/neck/sm.gif",
+		"imageUrl": "sm.gif",
 		"description": "Worn about the neck, the Statesman's Medal reduces the cost of surrendering."
 	},
 	{
 		"id": "44",
 		"name": "Celestial Necklace of Bliss",
 		"rarity": "Relic",
-		"imageUrl": "assets/images/artifacts/neck/cnob.gif",
+		"imageUrl": "cnob.gif",
 		"description": "Worn about the neck, the Celestial Necklace of Bliss increases all four primary skills by +3."
 	}
 ]
