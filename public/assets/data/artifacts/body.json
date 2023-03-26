@@ -1,0 +1,58 @@
+[
+	{
+		"id": "45",
+		"name": "Breastplate of Petrified Wood",
+		"rarity": "Treasure",
+		"imageUrl": "assets/images/artifacts/body/bopw.gif",
+		"description": "Worn on the torso, this item increases your Power skill by +1."
+	},
+	{
+		"id": "46",
+		"name": "Armor of Wonder",
+		"rarity": "Minor",
+		"imageUrl": "assets/images/artifacts/body/aow.gif",
+		"description": "Worn on the torso, the Armor of Wonder increases all four primary skills by +1."
+	},
+	{
+		"id": "47",
+		"name": "Rib Cage",
+		"rarity": "Treasure",
+		"imageUrl": "assets/images/artifacts/body/rc.gif",
+		"description": "Worn about the neck, this necklace increases the combat speed of all your units by +1."
+	},
+	{
+		"id": "48",
+		"name": "Scales of the Greater Basilisk",
+		"rarity": "Treasure",
+		"imageUrl": "assets/images/artifacts/body/sotgb.gif",
+		"description": "Wearing this item renders your units immune to the Destroy Undead spell."
+	},
+	{
+		"id": "49",
+		"name": "Tunic of the Cyclops King",
+		"rarity": "Major",
+		"imageUrl": "assets/images/artifacts/body/totck.gif",
+		"description": "Wearing this item renders your units immune to the Hypnotize spell."
+	},
+	{
+		"id": "50",
+		"name": "Breastplate of Brimstone",
+		"rarity": "Major",
+		"imageUrl": "assets/images/artifacts/body/bob.gif",
+		"description": "Wearing this item renders your units immune to the Berserk spell."
+	},
+	{
+		"id": "51",
+		"name": "Dragon Scale Armor",
+		"rarity": "Relic",
+		"imageUrl": "assets/images/artifacts/body/dsa.gif",
+		"description": "Worn on a torso, this item increases your Attack and Defense skills by +4."
+	},
+	{
+		"id": "52",
+		"name": "Titan's Cuirass",
+		"rarity": "Relic",
+		"imageUrl": "assets/images/artifacts/body/tc.gif",
+		"description": "When worn, this massive relic increases your Power skill by +10, but reduces your Knowledge skill by -2."
+	}
+]

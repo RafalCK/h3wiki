@@ -1,0 +1,143 @@
+{
+	"name": "Red Tower",
+	"image": "red_tower.png",
+	"map": "map5.gif",
+	"info": [
+		{
+			"id": 0,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 7 },
+				{ "hex": "B", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 7 },
+				{ "hex": "C", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 7 },
+				{ "hex": "D", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 7 },
+				{ "hex": "E", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 7 }
+			],
+			"creature": {
+				"count": "1x",
+				"name": "Firebird",
+				"img": "firebird.gif"
+			},
+			"xp": 1225
+		},
+		{
+			"id": 1,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 7 },
+				{ "hex": "B", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 7 },
+				{ "hex": "C", "image": "energy_elemental.gif", "name": "Energy Elemental", "count": 7 },
+				{ "hex": "D", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 7 },
+				{ "hex": "E", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 7 }
+			],
+			"creature": {
+				"count": "1x",
+				"name": "Firebird",
+				"img": "firebird.gif"
+			},
+			"xp": 1225
+		},
+		{
+			"id": 2,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 14 },
+				{ "hex": "B", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 14 },
+				{ "hex": "C", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 14 },
+				{ "hex": "D", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 14 },
+				{ "hex": "E", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 14 }
+			],
+			"creature": {
+				"count": "2x",
+				"name": "Firebird",
+				"img": "firebird.gif"
+			},
+			"xp": 2450
+		},
+		{
+			"id": 3,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 14 },
+				{ "hex": "B", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 14 },
+				{ "hex": "C", "image": "energy_elemental.gif", "name": "Energy Elemental", "count": 14 },
+				{ "hex": "D", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 14 },
+				{ "hex": "E", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 14 }
+			],
+			"creature": {
+				"count": "2x",
+				"name": "Firebird",
+				"img": "firebird.gif"
+			},
+			"xp": 2450
+		},
+		{
+			"id": 4,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 21 },
+				{ "hex": "B", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 21 },
+				{ "hex": "C", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 21 },
+				{ "hex": "D", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 21 },
+				{ "hex": "E", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 21 }
+			],
+			"creature": {
+				"count": "3x",
+				"name": "Firebird",
+				"img": "firebird.gif"
+			},
+			"xp": 3675
+		},
+		{
+			"id": 5,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 21 },
+				{ "hex": "B", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 21 },
+				{ "hex": "C", "image": "energy_elemental.gif", "name": "Energy Elemental", "count": 21 },
+				{ "hex": "D", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 21 },
+				{ "hex": "E", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 21 }
+			],
+			"creature": {
+				"count": "3x",
+				"name": "Firebird",
+				"img": "firebird.gif"
+			},
+			"xp": 3675
+		},
+		{
+			"id": 6,
+			"percent": "10%",
+			"guards": [
+				{ "hex": "A", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 28 },
+				{ "hex": "B", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 28 },
+				{ "hex": "C", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 28 },
+				{ "hex": "D", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 28 },
+				{ "hex": "E", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 28 }
+			],
+			"creature": {
+				"count": "4x",
+				"name": "Firebird",
+				"img": "firebird.gif"
+			},
+			"xp": 4900
+		},
+		{
+			"id": 7,
+			"percent": "10%",
+			"guards": [
+				{ "hex": "A", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 28 },
+				{ "hex": "B", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 28 },
+				{ "hex": "C", "image": "energy_elemental.gif", "name": "Energy Elemental", "count": 28 },
+				{ "hex": "D", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 28 },
+				{ "hex": "E", "image": "fire_elemental.gif", "name": "Fire Elemental", "count": 28 }
+			],
+			"creature": {
+				"count": "4x",
+				"name": "Firebird",
+				"img": "firebird.gif"
+			},
+			"xp": 4900
+		}
+	]
+}

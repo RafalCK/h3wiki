@@ -1,0 +1,75 @@
+{
+	"name": "Experimental Shop",
+	"image": "experimentalshop.png",
+	"map": "map5.gif",
+	"info": [
+		{
+			"id": 0,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "steel_golem.gif", "name": "Steel Golems", "count": 5 },
+				{ "hex": "B", "image": "steel_golem.gif", "name": "Steel Golems", "count": 5 },
+				{ "hex": "C", "image": "steel_golem.gif", "name": "Steel Golems", "count": 5 },
+				{ "hex": "D", "image": "steel_golem.gif", "name": "Steel Golems", "count": 5 },
+				{ "hex": "E", "image": "steel_golem.gif", "name": "Steel Golems", "count": 5 }
+			],
+			"creature": {
+				"count": "1x",
+				"name": "Giant",
+				"img": "giant.gif"
+			},
+			"xp": 1125
+		},
+		{
+			"id": 1,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "steel_golem.gif", "name": "Steel Golems", "count": 10 },
+				{ "hex": "B", "image": "steel_golem.gif", "name": "Steel Golems", "count": 10 },
+				{ "hex": "C", "image": "steel_golem.gif", "name": "Steel Golems", "count": 10 },
+				{ "hex": "D", "image": "steel_golem.gif", "name": "Steel Golems", "count": 10 },
+				{ "hex": "E", "image": "steel_golem.gif", "name": "Steel Golems", "count": 10 }
+			],
+			"creature": {
+				"count": "2x",
+				"name": "Giant",
+				"img": "giant.gif"
+			},
+			"xp": 2250
+		},
+		{
+			"id": 2,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "steel_golem.gif", "name": "Steel Golems", "count": 15 },
+				{ "hex": "B", "image": "steel_golem.gif", "name": "Steel Golems", "count": 15 },
+				{ "hex": "C", "image": "steel_golem.gif", "name": "Steel Golems", "count": 15 },
+				{ "hex": "D", "image": "steel_golem.gif", "name": "Steel Golems", "count": 15 },
+				{ "hex": "E", "image": "steel_golem.gif", "name": "Steel Golems", "count": 15 }
+			],
+			"creature": {
+				"count": "3x",
+				"name": "Giant",
+				"img": "giant.gif"
+			},
+			"xp": 3375
+		},
+		{
+			"id": 3,
+			"percent": "10%",
+			"guards": [
+				{ "hex": "A", "image": "steel_golem.gif", "name": "Steel Golems", "count": 20 },
+				{ "hex": "B", "image": "steel_golem.gif", "name": "Steel Golems", "count": 20 },
+				{ "hex": "C", "image": "steel_golem.gif", "name": "Steel Golems", "count": 20 },
+				{ "hex": "D", "image": "steel_golem.gif", "name": "Steel Golems", "count": 20 },
+				{ "hex": "E", "image": "steel_golem.gif", "name": "Steel Golems", "count": 20 }
+			],
+			"creature": {
+				"count": "4x",
+				"name": "Giant",
+				"img": "giant.gif"
+			},
+			"xp": 4500
+		}
+	]
+}

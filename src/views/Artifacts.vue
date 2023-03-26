@@ -9,7 +9,7 @@
 					{{ artifact.name }}
 				</div>
 				<div class="artifacts__item__box">
-					<div class="artifacts__item__img"><img :src="`../${artifact.imageUrl}`" /></div>
+					<div class="artifacts__item__img"><img :src="`${imageUrl(artifact.imageUrl)}`" /></div>
 					<div class="artifacts__item__info">
 						<span class="artifacts__item__info__value center">{{ artifact.rarity }}</span>
 					</div>
@@ -27,15 +27,16 @@ import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 
 const route = useRoute();
-const artifacts = ref(null);
+const artifacts = ref([]);
 
-onMounted(() => {
-	let link = "../src/assets/data/artifacts/" + route.params.type + ".json";
-	fetch(link)
-		.then((res) => res.json())
-		.then((data) => (artifacts.value = data))
-		.catch((err) => console.log(err.message));
+onMounted(async () => {
+	const response = await fetch("../assets/data/artifacts/" + route.params.type + ".json");
+	artifacts.value = await response.json();
 });
+
+const imageUrl = (item) => {
+	return new URL(`../assets/images/artifacts/${route.params.type}/${item}`, import.meta.url);
+};
 </script>
 
 <style lang="scss" scoped>

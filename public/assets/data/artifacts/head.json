@@ -1,0 +1,72 @@
+[
+	{
+		"id": "17",
+		"name": "Helm of the Alabaster Unicorn",
+		"rarity": "Treasure",
+		"imageUrl": "assets/images/artifacts/head/hotau.gif",
+		"description": "Worn on the head, this item increases your Knowledge skill by +1."
+	},
+	{
+		"id": "18",
+		"name": "Skull Helmet",
+		"rarity": "Treasure",
+		"imageUrl": "assets/images/artifacts/head/sh.gif",
+		"description": "Worn on the head, this item increases your Knowledge skill by +2."
+	},
+	{
+		"id": "19",
+		"name": "Helm of Chaos",
+		"rarity": "Minor",
+		"imageUrl": "assets/images/artifacts/head/hoc.gif",
+		"description": "Worn on the head, this item increases your Knowledge skill by +3."
+	},
+	{
+		"id": "20",
+		"name": "Crown of the Supreme Magi",
+		"rarity": "Minor",
+		"imageUrl": "assets/images/artifacts/head/cotsm.gif",
+		"description": "Worn on the head, this item increases your Knowledge skill by +4."
+	},
+	{
+		"id": "21",
+		"name": "Hellstorm Helmet",
+		"rarity": "Major",
+		"imageUrl": "assets/images/artifacts/head/hh.gif",
+		"description": "Worn on the head, this item increases your Knowledge skill by +5."
+	},
+	{
+		"id": "22",
+		"name": "Crown of Dragontooth",
+		"rarity": "Relic",
+		"imageUrl": "assets/images/artifacts/head/cod.gif",
+		"description": "Worn on the head, this item increases your Knowledge and Power skills by +4."
+	},
+	{
+		"id": "23",
+		"name": "Thunder Helmet",
+		"rarity": "Relic",
+		"imageUrl": "assets/images/artifacts/head/th.gif",
+		"description": "When worn, this relic increases your Knowledge skill by +10, but reduces your Power skill by -2."
+	},
+	{
+		"id": "24",
+		"name": "Helm of Heavenly Enlightenment",
+		"rarity": "Relic",
+		"imageUrl": "assets/images/artifacts/head/hohe.gif",
+		"description": "Worn on the head, the Helm of Heavenly Enlightenment increases all four primary skills by +6."
+	},
+	{
+		"id": "25",
+		"name": "Sea Captain's Hat",
+		"rarity": "Relic",
+		"imageUrl": "assets/images/artifacts/head/sch.gif",
+		"description": "When worn, this hat increases your movement at sea, allows you to summon and destroy boats, and protects you from whirlpools."
+	},
+	{
+		"id": "26",
+		"name": "Spellbinder's Hat",
+		"rarity": "Relic",
+		"imageUrl": "assets/images/artifacts/head/ssh.gif",
+		"description": "When worn, this hat allows you to cast all 5th level spells."
+	}
+]
