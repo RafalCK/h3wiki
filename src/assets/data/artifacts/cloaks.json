@@ -3,63 +3,63 @@
 		"id": "59",
 		"name": "Cape of Conjuring",
 		"rarity": "Treasure",
-		"imageUrl": "assets/images/artifacts/cloaks/coc.gif",
+		"imageUrl": "coc.gif",
 		"description": "Worn about the shoulders, this item increases the duration of all your spells by 3."
 	},
 	{
 		"id": "60",
 		"name": "Dragon Wing Tabard",
 		"rarity": "Minor",
-		"imageUrl": "assets/images/artifacts/cloaks/dwt.gif",
+		"imageUrl": "dwt.gif",
 		"description": "Worn on the shoulders, this item increases your Knowledge and Power skills by +2."
 	},
 	{
 		"id": "61",
 		"name": "Vampire's Cowl",
 		"rarity": "Minor",
-		"imageUrl": "assets/images/artifacts/cloaks/vc.gif",
+		"imageUrl": "vc.gif",
 		"description": "Worn about the shoulders, this cowl increases your Necromancy skill by 10%."
 	},
 	{
 		"id": "62",
 		"name": "Ambassador's Sash",
 		"rarity": "Major",
-		"imageUrl": "assets/images/artifacts/cloaks/as.gif",
+		"imageUrl": "as.gif",
 		"description": "Worn about the shoulders, the Ambassador's Sash reduces the cost of surrendering."
 	},
 	{
 		"id": "63",
 		"name": "Cape of Velocity",
 		"rarity": "Major",
-		"imageUrl": "assets/images/artifacts/cloaks/cov.gif",
+		"imageUrl": "cov.gif",
 		"description": "Worn about the shoulders, this cape increases the combat speed of all your units by +2."
 	},
 	{
 		"id": "64",
 		"name": "Everflowing Crystal Cloak",
 		"rarity": "Major",
-		"imageUrl": "assets/images/artifacts/cloaks/ecc.gif",
+		"imageUrl": "ecc.gif",
 		"description": "When worn, this cloak increases your Crystal production by +1 per day."
 	},
 	{
 		"id": "66",
 		"name": "Recanter's Cloak",
 		"rarity": "Major",
-		"imageUrl": "assets/images/artifacts/cloaks/rc.gif",
+		"imageUrl": "rc.gif",
 		"description": "While wearing this cloak, neither you nor your opponent will be able to cast level 3 or higher spells during combat."
 	},
 	{
 		"id": "67",
 		"name": "Surcoat of Counterpoise",
 		"rarity": "Major",
-		"imageUrl": "assets/images/artifacts/cloaks/sc.gif",
+		"imageUrl": "sc.gif",
 		"description": "Worn about the shoulders, this item increases your Magic Resistance by 10%."
 	},
 	{
 		"id": "68",
 		"name": "Angel Wings",
 		"rarity": "Relic",
-		"imageUrl": "assets/images/artifacts/cloaks/aw.gif",
+		"imageUrl": "aw.gif",
 		"description": "Worn about the shoulders, these wings allow you to fly."
 	}
 ]

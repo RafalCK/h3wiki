@@ -12,7 +12,8 @@ import Bank from "../views/Bank.vue";
 import frame from "../layouts/Frame.vue";
 
 const router = createRouter({
-	history: createWebHistory(import.meta.env.BASE_URL),
+	history: createWebHistory("/h3wiki/"),
+	base: "/h3wiki/",
 	linkActiveClass: "menu__item-active",
 	routes: [
 		{

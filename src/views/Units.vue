@@ -100,6 +100,8 @@ import { useRoute } from "vue-router";
 
 const route = useRoute();
 
+console.log(import.meta.env.BASE_URL);
+
 const units = ref([]);
 
 onMounted(async () => {
