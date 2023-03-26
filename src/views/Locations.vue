@@ -11,7 +11,7 @@
 					<div class="locations__image">
 						<img
 							class="locations__image__img"
-							:src="`/assets/images/locations/${location.src}`"
+							:src="`${imageUrl(location.src)}`"
 							:alt="location.name" />
 					</div>
 					<span class="locations__name">{{ location.label }}</span>
@@ -25,6 +25,10 @@
 import locationsData from "../assets/data/locationsData.json";
 
 const locations = locationsData;
+
+const imageUrl = (item) => {
+	return new URL(`../assets/images/locations/${item}`, import.meta.url);
+};
 </script>
 
 <style lang="scss" scoped>

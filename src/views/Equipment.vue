@@ -3,111 +3,111 @@
 		<div class="equipment__wrapper">
 			<img
 				class="equipment__background"
-				src="/assets/images/equipment.jpg" />
+				src="@/assets/images/equipment.jpg" />
 			<button
 				@click="goToArtifact('head')"
 				class="equipment__button equipment__button__head">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/head/hohe.gif" />
+					src="@/assets/images/artifacts/head/hohe.gif" />
 			</button>
 			<button
 				@click="goToArtifact('main-hand')"
 				class="equipment__button equipment__button__main-hand">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/main-hand/soj.gif" />
+					src="@/assets/images/artifacts/main-hand/soj.gif" />
 			</button>
 			<button
 				@click="goToArtifact('hands')"
 				class="equipment__button equipment__button__hand-left">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/hands/seotd.gif" />
+					src="@/assets/images/artifacts/hands/seotd.gif" />
 			</button>
 			<button
 				@click="goToArtifact('neck')"
 				class="equipment__button equipment__button__neck">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/neck/cnob.gif" />
+					src="@/assets/images/artifacts/neck/cnob.gif" />
 			</button>
 			<button
 				@click="goToArtifact('accessories')"
 				class="equipment__button equipment__button__accessory-1">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/accessory/toe.gif" />
+					src="@/assets/images/artifacts/accessory/toe.gif" />
 			</button>
 			<button
 				@click="goToArtifact('body')"
 				class="equipment__button equipment__button__body">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/body/aow.gif" />
+					src="@/assets/images/artifacts/body/aow.gif" />
 			</button>
 			<button
 				@click="goToArtifact('accessories')"
 				class="equipment__button equipment__button__accessory-2">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/accessory/oos.gif" />
+					src="@/assets/images/artifacts/accessory/oos.gif" />
 			</button>
 			<button
 				@click="goToArtifact('off-hand')"
 				class="equipment__button equipment__button__off-hand">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/off-hand/lsoc.gif" />
+					src="@/assets/images/artifacts/off-hand/lsoc.gif" />
 			</button>
 			<button
 				@click="goToArtifact('hands')"
 				class="equipment__button equipment__button__hand-right">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/hands/qeotd.gif" />
+					src="@/assets/images/artifacts/hands/qeotd.gif" />
 			</button>
 			<button
 				@click="goToArtifact('accessories')"
 				class="equipment__button equipment__button__accessory-3">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/accessory/gb.gif" />
+					src="@/assets/images/artifacts/accessory/gb.gif" />
 			</button>
 			<button
 				@click="goToArtifact('cloaks')"
 				class="equipment__button equipment__button__cloak">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/cloaks/dwt.gif" />
+					src="@/assets/images/artifacts/cloaks/dwt.gif" />
 			</button>
 			<button
 				@click="goToArtifact('accessories')"
 				class="equipment__button equipment__button__accessory-4">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/accessory/moom.gif" />
+					src="@/assets/images/artifacts/accessory/moom.gif" />
 			</button>
 			<button
 				@click="goToArtifact('accessories')"
 				class="equipment__button equipment__button__accessory-5">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/accessory/cop.gif" />
+					src="@/assets/images/artifacts/accessory/cop.gif" />
 			</button>
 			<button
 				@click="goToArtifact('feet')"
 				class="equipment__button equipment__button__feet">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/feet/sots.gif" />
+					src="@/assets/images/artifacts/feet/sots.gif" />
 			</button>
 			<button
 				@click="goToSpells"
 				class="equipment__button equipment__button__spellbook">
 				<img
 					class="equipment__button__img"
-					src="/assets/images/artifacts/spellbook.png" />
+					src="@/assets/images/artifacts/spellbook.png" />
 			</button>
 		</div>
 	</div>

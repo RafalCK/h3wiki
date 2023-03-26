@@ -52,7 +52,6 @@ import MenuMobile from "../../components/menu/MenuMobile.vue";
 const mobileNavMenu = ref(false);
 
 const route = useRoute();
-console.log(route);
 
 const openMenu = () => {
 	mobileNavMenu.value = !mobileNavMenu.value;

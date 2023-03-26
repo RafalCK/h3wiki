@@ -1,0 +1,119 @@
+{
+	"name": "Dwarven Treasury",
+	"image": "dwarven.png",
+	"map": "map5.gif",
+	"info": [
+		{
+			"id": 0,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 10 },
+				{ "hex": "B", "image": "dwarve.gif", "name": "Dwarves", "count": 10 },
+				{ "hex": "C", "image": "dwarve.gif", "name": "Dwarves", "count": 10 },
+				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 10 },
+				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 10 }
+			],
+			"content": "2500",
+			"crystal": "2",
+			"xp": 1000
+		},
+		{
+			"id": 1,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 10 },
+				{ "hex": "B", "image": "dwarve.gif", "name": "Dwarves", "count": 10 },
+				{ "hex": "C", "image": "battle_dwarf.gif", "name": "Battle Dwarves", "count": 10 },
+				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 10 },
+				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 10 }
+			],
+			"content": "2500",
+			"crystal": "2",
+			"xp": 1000
+		},
+		{
+			"id": 2,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 15 },
+				{ "hex": "B", "image": "dwarve.gif", "name": "Dwarves", "count": 15 },
+				{ "hex": "C", "image": "dwarve.gif", "name": "Dwarves", "count": 15 },
+				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 15 },
+				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 15 }
+			],
+			"content": "4000",
+			"crystal": "3",
+			"xp": 1000
+		},
+		{
+			"id": 3,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 15 },
+				{ "hex": "B", "image": "dwarve.gif", "name": "Dwarves", "count": 15 },
+				{ "hex": "C", "image": "battle_dwarf.gif", "name": "Battle Dwarves", "count": 15 },
+				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 15 },
+				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 15 }
+			],
+			"content": "4000",
+			"crystal": "3",
+			"xp": 1500
+		},
+		{
+			"id": 4,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 20 },
+				{ "hex": "B", "image": "dwarve.gif", "name": "Dwarves", "count": 20 },
+				{ "hex": "C", "image": "dwarve.gif", "name": "Dwarves", "count": 20 },
+				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 20 },
+				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 20 }
+			],
+			"content": "5000",
+			"crystal": "5",
+			"xp": 2000
+		},
+		{
+			"id": 5,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 20 },
+				{ "hex": "B", "image": "dwarve.gif", "name": "Dwarves", "count": 20 },
+				{ "hex": "C", "image": "battle_dwarf.gif", "name": "Battle Dwarves", "count": 20 },
+				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 20 },
+				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 20 }
+			],
+			"content": "5000",
+			"crystal": "5",
+			"xp": 2500
+		},
+		{
+			"id": 6,
+			"percent": "10%",
+			"guards": [
+				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 30 },
+				{ "hex": "B", "image": "dwarve.gif", "name": "Dwarves", "count": 30 },
+				{ "hex": "C", "image": "dwarve.gif", "name": "Dwarves", "count": 30 },
+				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 30 },
+				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 30 }
+			],
+			"content": "7500",
+			"crystal": "10",
+			"xp": 3000
+		},
+		{
+			"id": 7,
+			"percent": "10%",
+			"guards": [
+				{ "hex": "A", "image": "dwarve.gif", "name": "Dwarves", "count": 30 },
+				{ "hex": "B", "image": "dwarve.gif", "name": "Dwarves", "count": 30 },
+				{ "hex": "C", "image": "battle_dwarf.gif", "name": "Battle Dwarves", "count": 30 },
+				{ "hex": "D", "image": "dwarve.gif", "name": "Dwarves", "count": 30 },
+				{ "hex": "E", "image": "dwarve.gif", "name": "Dwarves", "count": 30 }
+			],
+			"content": "7500",
+			"crystal": "10",
+			"xp": 3000
+		}
+	]
+}

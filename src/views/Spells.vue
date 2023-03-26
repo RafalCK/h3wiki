@@ -16,7 +16,7 @@
 							<div class="units__item__info__image">
 								<img
 									class="units__item__info__image__img"
-									src="/assets/images/growth.jpg" />
+									src="@/assets/images/growth.jpg" />
 							</div>
 							<span class="units__item__info__value">{{ spell.level }}</span>
 						</div>
@@ -25,7 +25,7 @@
 							<div class="units__item__info__image">
 								<img
 									class="units__item__info__image__img"
-									src="/assets/images/spec.jpg" />
+									src="@/assets/images/spec.jpg" />
 							</div>
 							<span class="units__item__info__value">{{ spell.manaCost }}</span>
 						</div>
@@ -36,7 +36,7 @@
 							<div class="units__item__info__image">
 								<img
 									class="units__item__info__image__img"
-									:src="`/assets/images/basic_${spell.magic}.jpg`" />
+									:src="`@/assets/images/basic_${spell.magic}.jpg`" />
 							</div>
 							<span class="units__item__info__value">Basic</span>
 						</div>
@@ -52,7 +52,7 @@
 							<div class="units__item__info__image">
 								<img
 									class="units__item__info__image__img"
-									:src="`/assets/images/advanced_${spell.magic}.jpg`" />
+									:src="`@/assets/images/advanced_${spell.magic}.jpg`" />
 							</div>
 							<span class="units__item__info__value">Advanced</span>
 						</div>
@@ -68,7 +68,7 @@
 							<div class="units__item__info__image">
 								<img
 									class="units__item__info__image__img"
-									:src="`/assets/images/expert_${spell.magic}.jpg`" />
+									:src="`@/assets/images/expert_${spell.magic}.jpg`" />
 							</div>
 							<span class="units__item__info__value">Expert</span>
 						</div>
