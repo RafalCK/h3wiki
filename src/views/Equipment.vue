@@ -37,7 +37,7 @@
 				class="equipment__button equipment__button__accessory-1">
 				<img
 					class="equipment__button__img"
-					src="@/assets/images/artifacts/accessory/toe.gif" />
+					src="@/assets/images/artifacts/accessories/toe.gif" />
 			</button>
 			<button
 				@click="goToArtifact('body')"
@@ -51,7 +51,7 @@
 				class="equipment__button equipment__button__accessory-2">
 				<img
 					class="equipment__button__img"
-					src="@/assets/images/artifacts/accessory/oos.gif" />
+					src="@/assets/images/artifacts/accessories/oos.gif" />
 			</button>
 			<button
 				@click="goToArtifact('off-hand')"
@@ -72,7 +72,7 @@
 				class="equipment__button equipment__button__accessory-3">
 				<img
 					class="equipment__button__img"
-					src="@/assets/images/artifacts/accessory/gb.gif" />
+					src="@/assets/images/artifacts/accessories/gb.gif" />
 			</button>
 			<button
 				@click="goToArtifact('cloaks')"
@@ -86,14 +86,14 @@
 				class="equipment__button equipment__button__accessory-4">
 				<img
 					class="equipment__button__img"
-					src="@/assets/images/artifacts/accessory/moom.gif" />
+					src="@/assets/images/artifacts/accessories/moom.gif" />
 			</button>
 			<button
 				@click="goToArtifact('accessories')"
 				class="equipment__button equipment__button__accessory-5">
 				<img
 					class="equipment__button__img"
-					src="@/assets/images/artifacts/accessory/cop.gif" />
+					src="@/assets/images/artifacts/accessories/cop.gif" />
 			</button>
 			<button
 				@click="goToArtifact('feet')"

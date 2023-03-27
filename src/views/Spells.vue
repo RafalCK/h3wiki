@@ -9,7 +9,7 @@
 					{{ spell.name }}
 				</div>
 				<div class="units__item__box">
-					<div class="units__item__img"><img :src="`../${spell.imageUrl}`" /></div>
+					<div class="units__item__img"><img :src="`${imageUrl(spell.imageUrl)}`" /></div>
 					<div class="units__item__container__info">
 						<div class="units__item__info">
 							<span class="units__item__info__header">Level</span>
@@ -89,15 +89,17 @@ import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 
 const route = useRoute();
-const spells = ref(null);
 
-onMounted(() => {
-	let link = "../src/assets/data/magics/" + route.params.name + ".json";
-	fetch(link)
-		.then((res) => res.json())
-		.then((data) => (spells.value = data))
-		.catch((err) => console.log(err.message));
+const spells = ref([]);
+
+onMounted(async () => {
+	const response = await fetch("../assets/data/magics/" + route.params.name + ".json");
+	spells.value = await response.json();
 });
+
+const imageUrl = (item) => {
+	return new URL(`../assets/images/spells/${route.params.name}/${item}`, import.meta.url);
+};
 </script>
 
 <style lang="scss" scoped>

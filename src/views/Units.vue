@@ -100,8 +100,6 @@ import { useRoute } from "vue-router";
 
 const route = useRoute();
 
-console.log(import.meta.env.BASE_URL);
-
 const units = ref([]);
 
 onMounted(async () => {
@@ -110,7 +108,7 @@ onMounted(async () => {
 });
 
 const imageUrl = (item) => {
-	return new URL(`../assets/images/units/${route.params.name}/${item}`, import.meta.url);
+	return new URL(`../assets/images/units/${route.params.name}/${item}`, import.meta.url).href;
 };
 </script>
 
