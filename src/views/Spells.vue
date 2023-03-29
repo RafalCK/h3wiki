@@ -36,7 +36,7 @@
 							<div class="units__item__info__image">
 								<img
 									class="units__item__info__image__img"
-									:src="`@/assets/images/basic_${spell.magic}.jpg`" />
+									:src="`${levelBasicUrl()}.jpg`" />
 							</div>
 							<span class="units__item__info__value">Basic</span>
 						</div>
@@ -52,7 +52,7 @@
 							<div class="units__item__info__image">
 								<img
 									class="units__item__info__image__img"
-									:src="`@/assets/images/advanced_${spell.magic}.jpg`" />
+									:src="`${levelAdvancedUrl()}.jpg`" />
 							</div>
 							<span class="units__item__info__value">Advanced</span>
 						</div>
@@ -68,7 +68,7 @@
 							<div class="units__item__info__image">
 								<img
 									class="units__item__info__image__img"
-									:src="`@/assets/images/expert_${spell.magic}.jpg`" />
+									:src="`${levelExpertUrl()}.jpg`" />
 							</div>
 							<span class="units__item__info__value">Expert</span>
 						</div>
@@ -96,6 +96,18 @@ onMounted(async () => {
 	const response = await fetch("../assets/data/magics/" + route.params.name + ".json");
 	spells.value = await response.json();
 });
+
+const levelBasicUrl = () => {
+	return new URL(`../assets/images/basic_${route.params.name}`, import.meta.url);
+};
+
+const levelAdvancedUrl = () => {
+	return new URL(`../assets/images/advanced_${route.params.name}`, import.meta.url);
+};
+
+const levelExpertUrl = () => {
+	return new URL(`../assets/images/expert_${route.params.name}`, import.meta.url);
+};
 
 const imageUrl = (item) => {
 	return new URL(`../assets/images/spells/${route.params.name}/${item}`, import.meta.url);
