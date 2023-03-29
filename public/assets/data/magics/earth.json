@@ -1,0 +1,189 @@
+[
+	{
+		"id": "52",
+		"name": "Shield",
+		"level": 1,
+		"manaCost": 5,
+		"basic": "One friendly target unit receives 15% less damage from Hand-to-hand combat.",
+		"advanced": "One friendly target unit receives 30% less damage from Hand-to-hand combat.",
+		"expert": "All friendly units' receive 30% less damage from Hand-to-hand combat.",
+		"imageUrl": "shield.png",
+		"magic": "earth"
+	},
+	{
+		"id": "53",
+		"name": "Slow",
+		"level": 1,
+		"manaCost": 6,
+		"basic": "One enemy target's speed is reduced to 25% of normal.",
+		"advanced": "One enemy target's speed is reduced to 50% of normal.",
+		"expert": "All enemy units' speed are reduced to 50% of normal.",
+		"imageUrl": "slow.png",
+		"magic": "earth"
+	},
+	{
+		"id": "54",
+		"name": "Stone Skin",
+		"level": 1,
+		"manaCost": 5,
+		"basic": "One friendly target's defense rating is increased by three.",
+		"advanced": "One friendly target's defense rating is increased by six.",
+		"expert": "All friendly targets' defense rating are increased by six.",
+		"imageUrl": "stone_skin.png",
+		"magic": "earth"
+	},
+	{
+		"id": "55",
+		"name": "View Earth",
+		"level": 1,
+		"manaCost": 2,
+		"basic": "Displays the location of all loose resources on the view world screen.",
+		"advanced": "Displays the location of all mines and loose resources on the view world screen.",
+		"expert": "Displays the entire terrain, all mines and loose resources on the view world screen.",
+		"imageUrl": "view_earth.png",
+		"magic": "earth"
+	},
+	{
+		"id": "56",
+		"name": "Death Ripple",
+		"level": 2,
+		"manaCost": 10,
+		"basic": "All non-undead troops take ((Power x 5) + 10) damage.",
+		"advanced": "All non-undead troops take ((Power x 5) + 20) damage.",
+		"expert": "All non-undead troops take ((Power x 5) + 30) damage.",
+		"imageUrl": "death_ripple.png",
+		"magic": "earth"
+	},
+	{
+		"id": "57",
+		"name": "Quicksand",
+		"level": 2,
+		"manaCost": 8,
+		"basic": "Quicksand pits are placed in four random hexes. They are invisible to creatures unless they are on native terrain. Troops stepping on pit hexes have their movement halted for the current round. Once a pit is stepped on, it is revealed to all.",
+		"advanced": "Same as Basic effect, except that six pits are placed.",
+		"expert": "Same as Basic efect, except that eight pits are placed.",
+		"imageUrl": "quicksand.png",
+		"magic": "earth"
+	},
+	{
+		"id": "58",
+		"name": "Animate Dead",
+		"level": 3,
+		"manaCost": 15,
+		"basic": "Reanimates ((Power x 50) + 30) health points worth of killed undead creatures in target, allied troop.",
+		"advanced": "Reanimates ((Power x 50) + 30) health points worth of killed undead creatures in target, allied troop.",
+		"expert": "Reanimates ((Power x 50) + 160) health points worth of killed undead creatures in target, allied troop.",
+		"imageUrl": "animate_dead.png",
+		"magic": "earth"
+	},
+	{
+		"id": "59",
+		"name": "Anti-Magic",
+		"level": 3,
+		"manaCost": 15,
+		"basic": "One friendly target unit can only be affected by level 4 or 5 spells.",
+		"advanced": "One friendly target unit can only be affected by level 4 or 5 spells.",
+		"expert": "One friendly target unit is immune to spell effects.",
+		"imageUrl": "anti-magic.png",
+		"magic": "earth"
+	},
+	{
+		"id": "60",
+		"name": "Earthquake",
+		"level": 3,
+		"manaCost": 20,
+		"basic": "Does one point of damage to two, random castle walls during siege combat.",
+		"advanced": "Does one point of damage to three, random castle walls during siege combat.",
+		"expert": "Does one point of damage to four, random castle walls during siege combat.",
+		"imageUrl": "earthquake.png",
+		"magic": "earth"
+	},
+	{
+		"id": "61",
+		"name": "Force Field",
+		"level": 3,
+		"manaCost": 12,
+		"basic": "A two hex wide force wall is created at target hex. Movement through these hexes is blocked.",
+		"advanced": "Same as Basic effect, except the force wall is three hexes wide.",
+		"expert": "Same as Advanced effect.",
+		"imageUrl": "force_field.png",
+		"magic": "earth"
+	},
+	{
+		"id": "62",
+		"name": "Protection from Earth",
+		"level": 3,
+		"manaCost": 12,
+		"basic": "Damage from Earth Magic spells is reduced by 30% for target, allied troop.",
+		"advanced": "SamDamage from Earth Magic spells is reduced by 50% for target, allied troop.",
+		"expert": "Damage from Earth Magic spells is reduced by 50% for all allied troops.",
+		"imageUrl": "protection_from_earth.png",
+		"magic": "earth"
+	},
+	{
+		"id": "63",
+		"name": "Meteor Shower",
+		"level": 4,
+		"manaCost": 16,
+		"basic": "Troops in target hex and adjacent hexes take ((Power x 25) + 25) damage.",
+		"advanced": "Troops in target hex and adjacent hexes take ((Power x 25) + 50) damage.",
+		"expert": "Troops in target hex and adjacent hexes take ((Power x 25) + 100) damage.",
+		"imageUrl": "meteor_shower.png",
+		"magic": "earth"
+	},
+	{
+		"id": "64",
+		"name": "Resurrection",
+		"level": 4,
+		"manaCost": 20,
+		"basic": "One friendly target unit with dead creatures has ((Power x 50) + 40) health worth of creatures restored to life for the duration of the current battle.",
+		"advanced": "Same as Basic effect, except that ((Power x 50) +80) health worth of creatures are restored permanently.",
+		"expert": "Same as Advanced effect, except that (Power x 50 + 160) health worth of creatures are restored.",
+		"imageUrl": "resurrection.png",
+		"magic": "earth"
+	},
+	{
+		"id": "65",
+		"name": "Sorrow",
+		"level": 4,
+		"manaCost": 16,
+		"basic": "One enemy targeted unit's morale rating is reduced by one.",
+		"advanced": "One enemy targeted unit's morale rating is reduced by two.",
+		"expert": "All enemy troops' morale ratings are reduced by two.",
+		"imageUrl": "sorrow.png",
+		"magic": "earth"
+	},
+	{
+		"id": "66",
+		"name": "Town Portal",
+		"level": 4,
+		"manaCost": 24,
+		"basic": "Casting hero is teleported to the nearest allied town. 300 movement points are expended when the spell is cast.",
+		"advanced": "Casting hero may teleport to any allied town with no visiting hero. 300 movement points are expended when the spell is cast.",
+		"expert": "Same as Advanced effect, except that movement point cost is 200.",
+		"imageUrl": "town_portal.png",
+		"magic": "earth"
+	},
+	{
+		"id": "67",
+		"name": "Implosion",
+		"level": 5,
+		"manaCost": 30,
+		"basic": "One enemy target unit receives ((Power x 75) + 100) damage.",
+		"advanced": "One enemy target unit receives ((Power x 75) + 200) damage.",
+		"expert": "One enemy target unit receives ((Power x 75) + 300) damage.",
+		"imageUrl": "implosion.png",
+		"magic": "earth"
+	},
+	{
+		"id": "68",
+		"name": "Summon Earth Elemental",
+		"level": 5,
+		"manaCost": 25,
+		"basic": "A troop containing (Power x 2) earth elementals appears on the side of the casting player. Only one type of elemental can be summoned.",
+		"advanced": "Same as Basic effect, except that (Power x 3) earth elementals are summoned.",
+		"expert": "Same as Basic effect, except that (Power x 4) earth elementals are summoned.",
+		"imageUrl": "summon_earth_elemental.png",
+		"magic": "earth"
+	}
+]
