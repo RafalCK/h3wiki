@@ -1,25 +1,14 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "../views/Home.vue";
-import Towns from "../views/Towns.vue";
-import Units from "../views/Units.vue";
-import Magics from "../views/Magics.vue";
-import Spells from "../views/Spells.vue";
-import Locations from "../views/Locations.vue";
-import Artifacts from "../views/Artifacts.vue";
-import Equipment from "../views/Equipment.vue";
-import Bank from "../views/Bank.vue";
-
 import frame from "../layouts/Frame.vue";
 
 const router = createRouter({
-	history: createWebHistory("/h3wiki/"),
-	base: "/h3wiki/",
+	history: createWebHistory(import.meta.env.BASE_URL),
 	linkActiveClass: "menu__item-active",
 	routes: [
 		{
 			path: "/",
 			name: "Home",
-			component: Home,
+			component: () => import("../views/Home.vue"),
 			meta: {
 				layout: frame,
 			},
@@ -27,7 +16,7 @@ const router = createRouter({
 		{
 			path: "/towns",
 			name: "Towns",
-			component: Towns,
+			component: () => import("../views/Towns.vue"),
 			meta: {
 				layout: frame,
 			},
@@ -35,12 +24,12 @@ const router = createRouter({
 		{
 			path: "/units/:name",
 			name: "Units",
-			component: Units,
+			component: () => import("../views/Units.vue"),
 		},
 		{
 			path: "/magics",
 			name: "Magics",
-			component: Magics,
+			component: () => import("../views/Magics.vue"),
 			meta: {
 				layout: frame,
 			},
@@ -48,12 +37,12 @@ const router = createRouter({
 		{
 			path: "/spells/:name",
 			name: "Spells",
-			component: Spells,
+			component: () => import("../views/Spells.vue"),
 		},
 		{
 			path: "/locations",
 			name: "Locations",
-			component: Locations,
+			component: () => import("../views/Locations.vue"),
 			meta: {
 				layout: frame,
 			},
@@ -61,7 +50,7 @@ const router = createRouter({
 		{
 			path: "/locations/:name",
 			name: "bank",
-			component: Bank,
+			component: () => import("../views/Bank.vue"),
 			meta: {
 				layout: frame,
 			},
@@ -69,7 +58,7 @@ const router = createRouter({
 		{
 			path: "/artifacts",
 			name: "Equipment",
-			component: Equipment,
+			component: () => import("../views/Equipment.vue"),
 			meta: {
 				layout: frame,
 			},
@@ -77,7 +66,7 @@ const router = createRouter({
 		{
 			path: "/artifacts/:type",
 			name: "Artifacts",
-			component: Artifacts,
+			component: () => import("../views/Artifacts.vue"),
 		},
 	],
 });
