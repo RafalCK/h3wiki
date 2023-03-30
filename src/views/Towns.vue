@@ -25,7 +25,7 @@ import townsData from "../assets/data/townsData.json";
 const towns = townsData;
 
 const imageUrl = (item) => {
-	return new URL(`../assets/images/towns/${item}`, import.meta.url);
+	return new URL(`../assets/images/towns/${item}`, import.meta.url).href;
 };
 </script>
 

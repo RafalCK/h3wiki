@@ -36,7 +36,7 @@
 							<div class="units__item__info__image">
 								<img
 									class="units__item__info__image__img"
-									:src="`${levelBasicUrl()}.jpg`" />
+									:src="`${levelBasicUrl()}`" />
 							</div>
 							<span class="units__item__info__value">Basic</span>
 						</div>
@@ -52,7 +52,7 @@
 							<div class="units__item__info__image">
 								<img
 									class="units__item__info__image__img"
-									:src="`${levelAdvancedUrl()}.jpg`" />
+									:src="`${levelAdvancedUrl()}`" />
 							</div>
 							<span class="units__item__info__value">Advanced</span>
 						</div>
@@ -68,7 +68,7 @@
 							<div class="units__item__info__image">
 								<img
 									class="units__item__info__image__img"
-									:src="`${levelExpertUrl()}.jpg`" />
+									:src="`${levelExpertUrl()}`" />
 							</div>
 							<span class="units__item__info__value">Expert</span>
 						</div>
@@ -98,19 +98,21 @@ onMounted(async () => {
 });
 
 const levelBasicUrl = () => {
-	return new URL(`../assets/images/basic_${route.params.name}`, import.meta.url);
+	return new URL(`../assets/images/basic_${route.params.name}.jpg`, import.meta.url).href;
 };
 
+console.log(levelBasicUrl());
+
 const levelAdvancedUrl = () => {
-	return new URL(`../assets/images/advanced_${route.params.name}`, import.meta.url);
+	return new URL(`../assets/images/advanced_${route.params.name}.jpg`, import.meta.url).href;
 };
 
 const levelExpertUrl = () => {
-	return new URL(`../assets/images/expert_${route.params.name}`, import.meta.url);
+	return new URL(`../assets/images/expert_${route.params.name}.jpg`, import.meta.url).href;
 };
 
 const imageUrl = (item) => {
-	return new URL(`../assets/images/spells/${route.params.name}/${item}`, import.meta.url);
+	return new URL(`../assets/images/spells/${route.params.name}/${item}`, import.meta.url).href;
 };
 </script>
 

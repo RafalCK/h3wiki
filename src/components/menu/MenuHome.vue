@@ -20,7 +20,7 @@
 
 <script setup>
 const imageUrl = (item) => {
-	return new URL(`/src/assets/images/menu/${item}`, import.meta.url);
+	return new URL(`/src/assets/images/menu/${item}`, import.meta.url).href;
 };
 const menu = [
 	{

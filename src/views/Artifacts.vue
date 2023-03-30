@@ -35,7 +35,7 @@ onMounted(async () => {
 });
 
 const imageUrl = (item) => {
-	return new URL(`../assets/images/artifacts/${route.params.type}/${item}`, import.meta.url);
+	return new URL(`../assets/images/artifacts/${route.params.type}/${item}`, import.meta.url).href;
 };
 </script>
 

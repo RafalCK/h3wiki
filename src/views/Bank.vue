@@ -130,8 +130,6 @@ const imageMapUrl = (item) => {
 const imagePortraitUrl = (item) => {
 	return new URL(`../assets/images/portrait/${item}`, import.meta.url).href;
 };
-
-console.log(imageUrl("angel.gif"));
 </script>
 
 <style lang="scss" scoped>

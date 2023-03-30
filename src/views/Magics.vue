@@ -25,7 +25,7 @@ import magicsData from "../assets/data/magicsData.json";
 const magics = magicsData;
 
 const imageUrl = (item) => {
-	return new URL(`../assets/images/magics/${item}`, import.meta.url);
+	return new URL(`../assets/images/magics/${item}`, import.meta.url).href;
 };
 </script>
 

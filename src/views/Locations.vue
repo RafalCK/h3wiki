@@ -27,7 +27,7 @@ import locationsData from "../assets/data/locationsData.json";
 const locations = locationsData;
 
 const imageUrl = (item) => {
-	return new URL(`../assets/images/locations/${item}`, import.meta.url);
+	return new URL(`../assets/images/locations/${item}`, import.meta.url).href;
 };
 </script>
 
