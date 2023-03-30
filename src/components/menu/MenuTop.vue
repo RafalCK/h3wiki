@@ -86,15 +86,18 @@ const menu = [
 		&:hover {
 			filter: drop-shadow(0px 0px 25px rgba(244, 247, 249, 1));
 		}
+
+		&-active {
+			filter: drop-shadow(0px 0px 25px rgba(244, 247, 249, 1));
+			&:hover {
+				filter: none;
+			}
+		}
 	}
 
 	&__link {
 		display: flex;
 		text-decoration: none;
-
-		&.active {
-			filter: drop-shadow(0px 0px 25px rgba(244, 247, 249, 1));
-		}
 	}
 
 	&__text {

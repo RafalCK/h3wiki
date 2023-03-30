@@ -38,7 +38,9 @@
 						fill="#fff" />
 				</svg>
 			</button>
-			<menu-mobile v-if="mobileNavMenu" />
+			<menu-mobile
+				v-if="mobileNavMenu"
+				@close="(value) => (mobileNavMenu = value)" />
 		</div>
 	</div>
 </template>
@@ -56,12 +58,6 @@ const route = useRoute();
 const openMenu = () => {
 	mobileNavMenu.value = !mobileNavMenu.value;
 };
-
-watch(route, () => {
-	if ((mobileNavMenu.value = true)) {
-		mobileNavMenu.value = false;
-	}
-});
 </script>
 
 <style scoped lang="scss">

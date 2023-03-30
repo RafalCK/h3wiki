@@ -6,6 +6,7 @@
 				:key="item.id">
 				<li class="menu-mobile__list__item">
 					<router-link
+						@click="closeMenu(false)"
 						:to="{ path: item.url }"
 						class="menu-mobile__list__item__link">
 						<span class="menu-mobile__list__item__link__text">{{ item.name }}</span>
@@ -17,6 +18,7 @@
 </template>
 
 <script setup>
+const emit = defineEmits(["close"]);
 const menu = [
 	{
 		id: 0,
@@ -44,6 +46,10 @@ const menu = [
 		url: "/magics",
 	},
 ];
+
+const closeMenu = (value) => {
+	emit("close", value);
+};
 </script>
 
 <style lang="scss" scoped>
@@ -69,16 +75,25 @@ const menu = [
 			&__link {
 				text-decoration: none;
 				&__text {
-					color: $color-white;
 					text-transform: uppercase;
 					line-height: 40px;
-				}
-
-				&:hover {
-					filter: drop-shadow(0px 0px 25px rgba(244, 247, 249, 1));
+					background-image: repeating-linear-gradient(#eee 0px, #ebc622 15px, #eee 30px);
+					font-size: rem(30);
+					font-weight: 700;
+					letter-spacing: 0.5px;
+					text-transform: uppercase;
+					background-clip: text;
+					-webkit-background-clip: text;
+					color: transparent;
+					-webkit-text-fill-color: transparent;
+					filter: drop-shadow(0 1px 3px black) drop-shadow(0 1px 2px black) drop-shadow(0 1px 1px black);
 				}
 			}
 		}
 	}
+}
+
+.menu__item-active {
+	filter: drop-shadow(0px 0px 25px rgba(244, 247, 249, 1));
 }
 </style>
