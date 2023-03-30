@@ -19,7 +19,7 @@
 						<td colspan="2">
 							<img
 								class="bank__table__map"
-								:src="`/assets/images/locations/map/${banks.map}`" />
+								:src="`${imageMapUrl(banks.map)}`" />
 						</td>
 						<td colspan="2">
 							<img
@@ -51,7 +51,7 @@
 								<td class="bank__table__guard__tr__td">
 									<img
 										class="bank__table__guard__portrait"
-										:src="`${guard.image}`" />
+										:src="`${imagePortraitUrl(guard.image)}`" />
 									{{ guard.name }} {{ guard.count }}x
 								</td>
 							</template>
@@ -60,43 +60,43 @@
 							<span class="bank__table__awards">
 								<template v-if="bank.content">
 									{{ bank.content }}
-									<img :src="`@/assets/images/gold.gif`" />
+									<img src="@/assets/images/gold.gif" />
 								</template>
 								<template v-if="bank.creature">
 									{{ bank.creature.count }} {{ bank.creature.name }}
 									<img
 										class="bank__table__awards__creature"
-										:src="`@/assets/images/portrait/${bank.creature.img}`" />
+										:src="`${imagePortraitUrl(bank.creature.img)}`" />
 								</template>
 								<template v-if="bank.artifact"> Artifact ({{ bank.artifact }}) </template>
 								<template v-if="bank.wood">
 									{{ bank.wood }}
-									<img :src="`@/assets/images/wood.png`" />
+									<img src="@/assets/images/wood.png" />
 								</template>
 								<template v-if="bank.mercury">
 									{{ bank.mercury }}
-									<img :src="`@/assets/images/mercury.png`" />
+									<img src="@/assets/images/mercury.png" />
 								</template>
 								<template v-if="bank.ore">
 									{{ bank.ore }}
-									<img :src="`@/assets/images/ore.png`" />
+									<img src="@/assets/images/ore.png" />
 								</template>
 								<template v-if="bank.sulfur">
 									{{ bank.sulfur }}
-									<img :src="`@/assets/images/sulfur.png`" />
+									<img src="@/assets/images/sulfur.png" />
 								</template>
 								<template v-if="bank.crystal">
 									{{ bank.crystal }}
-									<img :src="`@/assets/images/crystal.png`" />
+									<img src="@/assets/images/crystal.png" />
 								</template>
 								<template v-if="bank.gem">
 									{{ bank.gem }}
-									<img :src="`/assets/images/gem.png`" />
+									<img src="@/assets/images/gem.png" />
 								</template>
 							</span>
 						</td>
 						<td>
-							<img :src="`~@/assets/images/cost.jpg`" />
+							<img src="@/assets/images/exp.jpg" />
 							{{ bank.xp }}
 						</td>
 					</tr>
@@ -113,22 +113,25 @@ import { useRoute } from "vue-router";
 const route = useRoute();
 const banks = ref({});
 
-const hexWidth = computed((source) => {
-	if (source.lenght > 5) {
-		return "16,6%";
-	} else {
-		return "25%";
-	}
-});
-
 onMounted(async () => {
 	const response = await fetch("../assets/data/banks/" + route.params.name + ".json");
 	banks.value = await response.json();
+	console.log(banks.value);
 });
 
 const imageUrl = (item) => {
-	return new URL(`../assets/images/units/locations/${item}`, import.meta.url);
+	return new URL(`../assets/images/locations/${item}`, import.meta.url).href;
 };
+
+const imageMapUrl = (item) => {
+	return new URL(`../assets/images/locations/map/${item}`, import.meta.url).href;
+};
+
+const imagePortraitUrl = (item) => {
+	return new URL(`../assets/images/portrait/${item}`, import.meta.url).href;
+};
+
+console.log(imageUrl("angel.gif"));
 </script>
 
 <style lang="scss" scoped>

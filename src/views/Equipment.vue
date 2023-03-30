@@ -172,22 +172,22 @@ const goToSpells = () => {
 
 		&__head {
 			top: 2%;
-			left: 46%;
+			left: 45%;
 		}
 
 		&__main-hand {
 			top: 14%;
-			left: 1%;
+			left: 0%;
 		}
 
 		&__hand-left {
 			top: 14%;
-			left: 18%;
+			left: 17%;
 		}
 
 		&__neck {
 			top: 17%;
-			left: 46%;
+			left: 45%;
 		}
 
 		&__accessory-1 {
@@ -197,7 +197,7 @@ const goToSpells = () => {
 
 		&__body {
 			top: 32%;
-			left: 46%;
+			left: 45%;
 		}
 
 		&__accessory-2 {
@@ -236,8 +236,8 @@ const goToSpells = () => {
 		}
 
 		&__feet {
-			top: 82%;
-			left: 48%;
+			top: 81%;
+			left: 47%;
 		}
 
 		&__spellbook {
