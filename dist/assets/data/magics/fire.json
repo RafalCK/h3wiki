@@ -1,0 +1,178 @@
+[
+	{
+		"id": "1",
+		"name": "Bloodlust",
+		"level": 1,
+		"manaCost": 5,
+		"basic": "One friendly target unit receives a +3 attack rating bonus for hand-to-hand attacks.",
+		"advanced": "One friendly target unit receives a +6 attack rating bonus for hand-to-hand attacks.",
+		"expert": "All friendly units receives a +6 attack rating bonus for hand-to-hand attacks.",
+		"imageUrl": "bloodlust.png",
+		"magic": "fire"
+	},
+	{
+		"id": "2",
+		"name": "Curse",
+		"level": 1,
+		"manaCost": 6,
+		"basic": "One enemy target unit inflicts minimum damage when it attacks.",
+		"advanced": "One enemy target unit inflicts ((80% of their minimum damage) - 1) when it attacks.",
+		"expert": "All enemy units inflict ((80% of their minimum damage) - 1) when they attack.",
+		"imageUrl": "curse.png",
+		"magic": "fire"
+	},
+	{
+		"id": "3",
+		"name": "Protection from Fire",
+		"level": 1,
+		"manaCost": 5,
+		"basic": "Damage from Fire Magic spells is reduced by 30% for target, allied troop.",
+		"advanced": "Damage from Fire Magic spells is reduced by 50% for target, allied troop.",
+		"expert": "Damage from Fire Magic spells is reduced by 50% for all allied troops.",
+		"imageUrl": "protection_from_fire.png",
+		"magic": "fire"
+	},
+	{
+		"id": "4",
+		"name": "Blind",
+		"level": 2,
+		"manaCost": 10,
+		"basic": "One enemy target unit is frozen until they are attacked. Deactivating attack is retaliated at 50% of base attack rating.",
+		"advanced": "One enemy target unit is frozen until they are attacked. Deactivating attack is retaliated at 25% of base attack rating.",
+		"expert": "One enemy target unit is frozen until they are attacked. Deactivating attack is not retaliated.",
+		"imageUrl": "blind.png",
+		"magic": "fire"
+	},
+	{
+		"id": "5",
+		"name": "Fire Wall",
+		"level": 2,
+		"manaCost": 8,
+		"basic": "A two hex wide wall of fire is produced at target hex. A troop passing through these hexes takes ((Power x 10) + 10) damage.",
+		"advanced": "Same as Basic effect, except that wall of fire is three hexes wide and damage is ((Power x 10) +20).",
+		"expert": "Same as Advanced effect, except that damage is ((Power x 10) + 50).",
+		"imageUrl": "fire_wall.png",
+		"magic": "fire"
+	},
+	{
+		"id": "6",
+		"name": "Fireball",
+		"level": 3,
+		"manaCost": 15,
+		"basic": "Troops in target hex and its surrounding hexes take ((Power x 10) + 15) damage.",
+		"advanced": "Same as Basic effect, except that damage is ((Power x 10) + 30).",
+		"expert": "Same as Basic effect, except that damage is ((Power x 10) + 60).",
+		"imageUrl": "fireball.png",
+		"magic": "fire"
+	},
+	{
+		"id": "7",
+		"name": "Land Mine",
+		"level": 3,
+		"manaCost": 18,
+		"basic": "Landmines are placed in four random hexes on the battlefield. A troop stepping on a mine takes ((Power x 10) + 25) damage. Enemy creatures battling on their native terrain can see the mines and can cross them safely. To all others they are invisible.",
+		"advanced": "Same as Basic effect, except that six mines are placed, and damage is ((Power x 10) + 50).",
+		"expert": "Same as Basic effect, except that six mines are placed, and damage is ((Power x 10) + 100).",
+		"imageUrl": "land_mine.png",
+		"magic": "fire"
+	},
+	{
+		"id": "8",
+		"name": "Misfortune",
+		"level": 3,
+		"manaCost": 12,
+		"basic": "One enemy target unit's luck rating is reduced by one.",
+		"advanced": "One enemy target unit's luck rating is reduced by two.",
+		"expert": "All enemy units' luck rating are reduced by two.",
+		"imageUrl": "misfortune.png",
+		"magic": "fire"
+	},
+	{
+		"id": "9",
+		"name": "Armageddon",
+		"level": 4,
+		"manaCost": 24,
+		"basic": "All troops take ((Power x 50) + 30) points of damage.",
+		"advanced": "All troops take ((Power x 50) + 60) points of damage.",
+		"expert": "All troops take ((Power x 50) + 120) points of damage.",
+		"imageUrl": "armageddon.png",
+		"magic": "fire"
+	},
+	{
+		"id": "10",
+		"name": "Berserk",
+		"level": 4,
+		"manaCost": 20,
+		"basic": "Target attacks nearest troop. All creatures in a 1 hex radius affected.",
+		"advanced": "Target attacks nearest troop. All creatures in a 2 hex radius (7 hexes total) affected.",
+		"expert": "Target attacks nearest troop. All creatures in a 3 hex radius (19 hexes total) affected.",
+		"imageUrl": "berserk.png",
+		"magic": "fire"
+	},
+	{
+		"id": "11",
+		"name": "Fire Shield",
+		"level": 4,
+		"manaCost": 16,
+		"basic": "20% of hand-to-hand damage inflicted on target, allied troop is counter-inflicted on attackers of the troop.",
+		"advanced": "Same as Basic effect except that 25% of damage is counter-inflicted.",
+		"expert": "Same as Basic effect except that 30% of damage is counter-inflicted.",
+		"imageUrl": "fire_shield.png",
+		"magic": "fire"
+	},
+	{
+		"id": "12",
+		"name": "Frenzy",
+		"level": 4,
+		"manaCost": 16,
+		"basic": "One friendly unit's attack rating is increased by 100% of the troop's defense rating, and its defense rating is reduced to zero.",
+		"advanced": "Same as Basic effect, except attack rating is increased to 150% of the troop's defense rating.",
+		"expert": "Same as Advanced effect, except attack rating is increased to 200% of the troop's defense rating.",
+		"imageUrl": "frenzy.png",
+		"magic": "fire"
+	},
+	{
+		"id": "13",
+		"name": "Inferno",
+		"level": 4,
+		"manaCost": 16,
+		"basic": "Strikes target hex, and all hexes within two hexes for ((Power x 10) + 20) damage.",
+		"advanced": "Same as Basic effect, except that damage is ((Power x 10) + 40).",
+		"expert": "Same as Basic effect, except that damage is ((Power x 10) + 80).",
+		"imageUrl": "inferno.png",
+		"magic": "fire"
+	},
+	{
+		"id": "14",
+		"name": "Slayer",
+		"level": 4,
+		"manaCost": 16,
+		"basic": "One friendly target unit's attack rating is increased by eight against behemoths, dragons, and hydras.",
+		"advanced": "Same as Basic effect, except that attack bonus also affects devils and angels.",
+		"expert": "Same as Advanced effect, except attack bonus also affects titans.",
+		"imageUrl": "slayer.png",
+		"magic": "fire"
+	},
+	{
+		"id": "15",
+		"name": "Sacrifice",
+		"level": 5,
+		"manaCost": 25,
+		"basic": "Target, non-undead troop is sacrificed (destroyed). Then another target troop has ((Power + destroyed unit's creature base Health + 3) x # of creatures sacrificed) in health total of creatures returned to life.",
+		"advanced": "Same as Basic effect, except that health total of creatures resurrected is ((Power + destroyed unit's creature base Health + 6) x # of creatures sacrificed).",
+		"expert": "Same as Basic effect, except that health total of creatures resurrected is ((Power + destroyed unit's creature base Health + 10) x # of creatures sacrificed).",
+		"imageUrl": "sacrifice.png",
+		"magic": "fire"
+	},
+	{
+		"id": "16",
+		"name": "Summon Fire Elemental",
+		"level": 5,
+		"manaCost": 25,
+		"basic": "A troop containing (Power x 2) fire elementals appears on the side of the casting player. Only one type of elemental can be summoned.",
+		"advanced": "Same as Basic effect, except that (Power x 3) fire elementals are summoned.",
+		"expert": "Same as Basic effect, except that (Power x 4) fire elementals are summoned.",
+		"imageUrl": "summon_fire_elemental.png",
+		"magic": "fire"
+	}
+]

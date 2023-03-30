@@ -1,0 +1,119 @@
+{
+	"name": "Medusa Stores",
+	"image": "medusastores.png",
+	"map": "map5_hex2.gif",
+	"info": [
+		{
+			"id": 0,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "medusa.gif", "name": "Medusas", "count": 4 },
+				{ "hex": "B", "image": "medusa.gif", "name": "Medusas", "count": 4 },
+				{ "hex": "C", "image": "medusa.gif", "name": "Medusas", "count": 4 },
+				{ "hex": "D", "image": "medusa.gif", "name": "Medusas", "count": 4 },
+				{ "hex": "E", "image": "medusa.gif", "name": "Medusas", "count": 4 }
+			],
+			"content": "2000",
+			"sulfur": "5",
+			"xp": 500
+		},
+		{
+			"id": 1,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "medusa.gif", "name": "Medusas", "count": 4 },
+				{ "hex": "B", "image": "medusa.gif", "name": "Medusas", "count": 4 },
+				{ "hex": "C", "image": "medusa_queen.gif", "name": "Medusa Queens", "count": 4 },
+				{ "hex": "D", "image": "medusa.gif", "name": "Medusas", "count": 4 },
+				{ "hex": "E", "image": "medusa.gif", "name": "Medusas", "count": 4 }
+			],
+			"content": "2000",
+			"sulfur": "5",
+			"xp": 520
+		},
+		{
+			"id": 2,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "medusa.gif", "name": "Medusas", "count": 6 },
+				{ "hex": "B", "image": "medusa.gif", "name": "Medusas", "count": 6 },
+				{ "hex": "C", "image": "medusa.gif", "name": "Medusas", "count": 6 },
+				{ "hex": "D", "image": "medusa.gif", "name": "Medusas", "count": 6 },
+				{ "hex": "E", "image": "medusa.gif", "name": "Medusas", "count": 6 }
+			],
+			"content": "3000",
+			"sulfur": "6",
+			"xp": 750
+		},
+		{
+			"id": 3,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "medusa.gif", "name": "Medusas", "count": 6 },
+				{ "hex": "B", "image": "medusa.gif", "name": "Medusas", "count": 6 },
+				{ "hex": "C", "image": "medusa_queen.gif", "name": "Medusa Queens", "count": 6 },
+				{ "hex": "D", "image": "medusa.gif", "name": "Medusas", "count": 6 },
+				{ "hex": "E", "image": "medusa.gif", "name": "Medusas", "count": 6 }
+			],
+			"content": "3000",
+			"sulfur": "6",
+			"xp": 780
+		},
+		{
+			"id": 4,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "medusa.gif", "name": "Medusas", "count": 8 },
+				{ "hex": "B", "image": "medusa.gif", "name": "Medusas", "count": 8 },
+				{ "hex": "C", "image": "medusa.gif", "name": "Medusas", "count": 8 },
+				{ "hex": "D", "image": "medusa.gif", "name": "Medusas", "count": 8 },
+				{ "hex": "E", "image": "medusa.gif", "name": "Medusas", "count": 8 }
+			],
+			"content": "4000",
+			"sulfur": "8",
+			"xp": 1000
+		},
+		{
+			"id": 5,
+			"percent": "30%",
+			"guards": [
+				{ "hex": "A", "image": "medusa.gif", "name": "Medusas", "count": 8 },
+				{ "hex": "B", "image": "medusa.gif", "name": "Medusas", "count": 8 },
+				{ "hex": "C", "image": "medusa_queen.gif", "name": "Medusa Queens", "count": 8 },
+				{ "hex": "D", "image": "medusa.gif", "name": "Medusas", "count": 8 },
+				{ "hex": "E", "image": "medusa.gif", "name": "Medusas", "count": 8 }
+			],
+			"content": "4000",
+			"sulfur": "8",
+			"xp": 1040
+		},
+		{
+			"id": 6,
+			"percent": "10%",
+			"guards": [
+				{ "hex": "A", "image": "medusa.gif", "name": "Medusas", "count": 10 },
+				{ "hex": "B", "image": "medusa.gif", "name": "Medusas", "count": 10 },
+				{ "hex": "C", "image": "medusa.gif", "name": "Medusas", "count": 10 },
+				{ "hex": "D", "image": "medusa.gif", "name": "Medusas", "count": 10 },
+				{ "hex": "E", "image": "medusa.gif", "name": "Medusas", "count": 10 }
+			],
+			"content": "5000",
+			"sulfur": "10",
+			"xp": 1250
+		},
+		{
+			"id": 7,
+			"percent": "10%",
+			"guards": [
+				{ "hex": "A", "image": "medusa.gif", "name": "Medusas", "count": 10 },
+				{ "hex": "B", "image": "medusa.gif", "name": "Medusas", "count": 10 },
+				{ "hex": "C", "image": "medusa_queen.gif", "name": "Medusa Queens", "count": 10 },
+				{ "hex": "D", "image": "medusa.gif", "name": "Medusas", "count": 10 },
+				{ "hex": "E", "image": "medusa.gif", "name": "Medusas", "count": 10 }
+			],
+			"content": "5000",
+			"sulfur": "10",
+			"xp": 1300
+		}
+	]
+}

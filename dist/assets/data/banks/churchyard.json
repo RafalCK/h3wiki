@@ -1,0 +1,22 @@
+{
+	"name": "Churchyard",
+	"image": "churchyard.gif",
+	"map": "map6.gif",
+	"info": [
+		{
+			"id": 0,
+			"percent": "100%",
+			"guards": [
+				{ "hex": "A", "image": "zombie.gif", "name": "Zombie", "count": 15 },
+				{ "hex": "B", "image": "zombie.gif", "name": "Zombie", "count": 15 },
+				{ "hex": "C", "image": "zombie.gif", "name": "Zombie", "count": 15 },
+				{ "hex": "D", "image": "zombie.gif", "name": "Zombie", "count": 15 },
+				{ "hex": "E", "image": "zombie.gif", "name": "Zombie", "count": 15 },
+				{ "hex": "F", "image": "zombie.gif", "name": "Zombie", "count": 15 }
+			],
+			"content": "2500",
+			"artifact": "Minor",
+			"xp": 1800
+		}
+	]
+}
